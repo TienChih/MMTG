@@ -12,15 +12,15 @@
   </docinfo>
 
   <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+    <title>Modern Math through Games</title>
+    <subtitle>Notes for Discovery Seminar</subtitle>
 
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
-          <personname>You</personname>
-          <department>Your department</department>
-          <institution>Your institution</institution>
+          <personname>Tien Chih</personname>
+          <department>Department of Mathematics</department>
+          <institution>Oxford College of Emory University</institution>
         </author>
         <date>
           <today />
@@ -31,9 +31,9 @@
 
         <website>
           <name>
-            <c>example.org</c>
+            <c>tienchih.github.io</c>
           </name>
-          <address>https://example.org</address>
+          <address>https://tienchih.github.io</address>
         </website>
 
         <copyright>
@@ -47,11 +47,36 @@
     </frontmatter>
 
     <chapter xml:id="chapter-title">
-      <title>Chapter title</title>
+      <title>Geometry?  In my card game?</title>
 
       <section xml:id="section-title">
-        <title>Section title</title>
-        <p>Hello</p>
+        <title>SET</title>
+        <p>
+          Each SET card has four characteristics.
+          <ul>
+            <li>
+              <p>
+                <em>Color</em>: Red, Green or Purple.
+              </p>
+            </li>
+            <li>
+              <p>
+                <em>Shading</em>: Bold, Empty or Striped.
+              </p>
+            </li>
+            <li>
+              <p>
+                <em>Number</em>: One, two or Three shapes.
+              </p>
+            </li>
+            <li>
+              <p>
+                <em>Shape</em>: Oval, Diamonds, or Squiggle.
+              </p>
+            </li>
+          </ul>
+
+        </p>
       </section>
 
     </chapter>
