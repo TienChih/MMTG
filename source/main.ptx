@@ -46,10 +46,10 @@
       </colophon>
     </frontmatter>
 
-    <chapter xml:id="chapter-title">
+    <chapter xml:id="chapter-geometry">
       <title>Geometry?  In my card game?</title>
 
-      <section xml:id="section-title">
+      <section xml:id="section-set">
         <title>SET</title>
         <p>
           Each SET card has four characteristics.
@@ -75,6 +75,11 @@
               </p>
             </li>
           </ul>
+          <figure xml:id="set_cards">
+            <image source="/workspaces/MMTG/assets/img/set_clear.png"/>
+            <caption>The SET cards</caption>
+          </figure>
+          
 
         </p>
       </section>
