@@ -76,9 +76,79 @@
             </li>
           </ul>
           <figure xml:id="set_cards">
-            <image source="/workspaces/MMTG/assets/img/set_clear.png"/>
+            <sidebyside>
+              <image source="img/set_clear.png" width="33%"/><image source="img/set_shaded.png" width="33%"/><image source="img/set_solid.png" width="33%"/>
+            </sidebyside>
+            
             <caption>The SET cards</caption>
           </figure>
+
+          <definition xml:id="def-SET">
+            <statement>
+              <p>
+                A <em>SET</em> is a collection of 3 cards such that for <em>each</em> of the four characteristics, either:
+                <ul>
+                  <li>
+                    <p>
+                      All three cards share the <em>same</em> value.  <em>OR</em>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      All three cards have  <em>different</em> values. 
+                    </p>
+                  </li>
+                </ul>
+              </p>
+            </statement>
+          </definition>
+
+          <activity>
+            <p>
+              Verify that the following are SETs.
+              <figure xml:id="sets">
+                <image source="img/set1.png" />
+                <image source="img/set2.jpg" />
+                <!--<image source="img/set3.png" />
+                <image source="img/set4.jpg" />-->
+                
+                <caption>Different examples of SETs</caption>
+              </figure>
+            </p>
+          </activity>
+
+          <activity>
+            <p>
+              Explain why the following is <em>NOT</em> a SET.
+
+              <figure xml:id="notaset">
+                <image source="img/notset.png" />
+                <caption>Not a SET.</caption>
+              </figure>
+            </p>
+          </activity>
+
+          
+
+          <activity>
+            <p>
+              What sets can you find here?
+
+              <figure xml:id="findsets">
+                <image source="img/dailyset.png" />
+                <caption>12 SET cards.</caption>
+              </figure>
+
+              url href="http://www.setgame.com/set/puzzle">Daily Puzzle.</url>
+
+            </p>
+          </activity>
+
+          <activity>
+            <p>
+              Play SET!
+            </p>
+          </activity>
           
 
         </p>
