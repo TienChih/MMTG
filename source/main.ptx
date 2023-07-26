@@ -82,6 +82,7 @@
             
             <caption>The SET cards</caption>
           </figure>
+        </p>
 
           <definition xml:id="def-SET">
             <statement>
@@ -106,14 +107,47 @@
           <activity>
             <p>
               Verify that the following are SETs.
-              <figure xml:id="sets">
-                <image source="img/set1.png" />
-                <image source="img/set2.jpg" />
-                <!--<image source="img/set3.png" />
-                <image source="img/set4.jpg" />-->
+              <figure xml:id="set1">
+                <sidebyside>
+                  <image source="img/1GEmS.png" width="33%"/> <image source="img/2REmD.png" width="33%"/> <image source="img/3PEmD.png" width="33%"/>
+                </sidebyside>
+
+               
                 
-                <caption>Different examples of SETs</caption>
+                <caption>Example of a SET</caption>
               </figure>
+
+              <figure xml:id="set2">
+
+                <sidebyside>
+                  <image source="img/2RStS.png" width="33%"/> <image source="img/2REmO.png" width="33%"/> <image source="img/2RSoD.png" width="33%"/>
+                </sidebyside>
+
+                
+                
+                <caption>Example of a SET</caption>
+              </figure>
+
+              <figure xml:id="set3">
+
+                <sidebyside>
+                  <image source="img/1PSoS.png" width="33%"/> <image source="img/1RStS.png" width="33%"/> <image source="img/1GEmS.png" width="33%"/>
+                </sidebyside>
+
+                
+                
+                <caption>Example of a SET</caption>
+              </figure>
+
+              <figure xml:id="set4">
+                <sidebyside>
+                  <image source="img/1GSoD.png" width="33%"/> <image source="img/3PStS.png" width="33%"/> <image source="img/2REmO.png" width="33%"/>
+                </sidebyside>
+                
+                
+                <caption>Example of a SET</caption>
+              </figure>
+
               (Go through each of the four characteristics, Color, Shading, Number, Shape.  For the three cards, 
               do all three cards have the same value or do all three have different values?  Repeat for the remaining characteristics.)
             </p>
@@ -121,10 +155,30 @@
 
           <activity>
             <p>
-              Explain why the following is <em>NOT</em> a SET.
+              Explain why the following are <em>NOT</em> SETs.
 
-              <figure xml:id="notaset">
-                <image source="img/notset.png" />
+              <figure xml:id="notaset1">
+                <sidebyside>
+                  <image source="img/2PSoS.png" width="33%"/> <image source="img/2PEmD.png" width="33%"/> <image source="img/2PSoD.png" width="33%"/>
+                </sidebyside>
+                
+                <caption>Not a SET.</caption>
+              </figure>
+
+              <figure xml:id="notaset2">
+                
+                <sidebyside>
+                  <image source="img/1GEmD.png" width="33%"/> <image source="img/2REmD.png" width="33%"/> <image source="img/3PEmO.png" width="33%"/>
+                </sidebyside>
+
+               
+                <caption>Not a SET.</caption>
+              </figure>
+
+              <figure xml:id="notaset3">
+                <sidebyside>
+                  <image source="img/2PSoS.png" width="33%"/> <image source="img/2PSoO.png" width="33%"/> <image source="img/2PStD.png" width="33%"/>
+                </sidebyside>
                 <caption>Not a SET.</caption>
               </figure>
             </p>
@@ -151,9 +205,47 @@
               Play SET!
             </p>
           </activity>
+
+          <activity>
+            <p>
+              For each of the following, determine what card(s) if any could be added to form a SET:
+              
+              
+              <figure xml:id="findset1">
+                <sidebyside>
+                  <image source="img/2GSoD.png" width="33%"/> <image source="img/2PSoO.png" width="33%"/> 
+                </sidebyside>
+                <caption>Two SET cards.</caption>
+              </figure>
+
+              <figure xml:id="findset2">
+                <sidebyside>
+                  <image source="img/1RSoS.png" width="33%"/> <image source="img/3RStS.png" width="33%"/> 
+                </sidebyside>
+                <caption>Two SET cards.</caption>
+              </figure>
+
+              <figure xml:id="findset3">
+                <sidebyside>
+                  <image source="img/2PStS.png" width="33%"/> <image source="img/3GEmO.png" width="33%"/> 
+                </sidebyside>
+                <caption>Two SET cards.</caption>
+              </figure>
+
+
+              
+              
+            </p>
+          </activity>
+
+          <activity>
+            <p>
+              For any two cards, is it always possible to find a third card to complete a SET?  How many options do you have?  Justify your assertions.
+            </p>
+          </activity>
           
 
-        </p>
+        
       </section>
 
     </chapter>
