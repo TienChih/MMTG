@@ -1,0 +1,228 @@
+<section xml:id="section-set">
+    <title>SET</title>
+    <p>
+      Each SET card has four characteristics.
+      <ul>
+        <li>
+          <p>
+            <em>Color</em>: Red, Green or Purple.
+          </p>
+        </li>
+        <li>
+          <p>
+            <em>Shading</em>: Bold, Empty or Striped.
+          </p>
+        </li>
+        <li>
+          <p>
+            <em>Number</em>: One, Two or Three shapes.
+          </p>
+        </li>
+        <li>
+          <p>
+            <em>Shape</em>: Oval, Diamonds, or Squiggle.
+          </p>
+        </li>
+      </ul>
+      <figure xml:id="set_cards">
+        <sidebyside>
+          <image source="img/set_clear.png" width="33%"/><image source="img/set_shaded.png" width="33%"/><image source="img/set_solid.png" width="33%"/>
+        </sidebyside>
+        
+        <caption>The SET cards</caption>
+      </figure>
+    </p>
+
+      <definition xml:id="def-SET">
+        <statement>
+          <p>
+            A <em>SET</em> is a collection of 3 cards such that for <em>each</em> of the four characteristics, either:
+            <ul>
+              <li>
+                <p>
+                  All three cards share the <em>same</em> value.  <em>OR</em>
+                </p>
+              </li>
+              <li>
+                <p>
+                  All three cards have  <em>different</em> values. 
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </definition>
+
+      <activity>
+        <introduction>
+        <p>
+          Verify that the following are SETs.
+        </p>
+        </introduction>
+          <task>
+            <sidebyside>
+              <image source="img/1GEmS.png" width="33%"/> <image source="img/2REmD.png" width="33%"/> <image source="img/3PEmO.png" width="33%"/>
+            </sidebyside>
+
+           
+            
+        </task>
+
+          <task>
+
+            <sidebyside>
+              <image source="img/2RStS.png" width="33%"/> <image source="img/2REmO.png" width="33%"/> <image source="img/2RSoD.png" width="33%"/>
+            </sidebyside>
+
+        </task>
+
+        <task>
+
+            <sidebyside>
+              <image source="img/1PSoS.png" width="33%"/> <image source="img/1RStS.png" width="33%"/> <image source="img/1GEmS.png" width="33%"/>
+            </sidebyside>
+        </task>
+
+        <task>
+            <sidebyside>
+              <image source="img/1GSoD.png" width="33%"/> <image source="img/3PStS.png" width="33%"/> <image source="img/2REmO.png" width="33%"/>
+            </sidebyside>
+            
+            
+        </task>
+        <p>
+          (Go through each of the four characteristics, Color, Shading, Number, Shape.  For the three cards, 
+          do all three cards have the same value or do all three have different values?  Repeat for the remaining characteristics.)
+        </p>
+      </activity>
+
+      <activity>
+        <introduction>
+          <p>
+            Explain why the following are <em>NOT</em> SETs.
+          </p>
+        </introduction>
+        
+          <task>
+            <sidebyside>
+              <image source="img/2PSoS.png" width="33%"/> <image source="img/2PEmD.png" width="33%"/> <image source="img/2PSoD.png" width="33%"/>
+            </sidebyside>
+            
+        </task>
+
+        <task>
+            
+            <sidebyside>
+              <image source="img/1GEmD.png" width="33%"/> <image source="img/2REmD.png" width="33%"/> <image source="img/3PEmO.png" width="33%"/>
+            </sidebyside>
+
+        </task>
+
+        <task>
+            <sidebyside>
+              <image source="img/2PSoS.png" width="33%"/> <image source="img/2PSoO.png" width="33%"/> <image source="img/2PStD.png" width="33%"/>
+            </sidebyside>
+        </task>
+        
+      </activity>
+
+      
+
+      <activity>
+        <task>
+            <p>
+            What sets can you find here?
+
+            <figure xml:id="findsets">
+                <image source="img/dailyset.png" />
+                <caption>12 SET cards.</caption>
+            </figure>
+
+
+            </p>
+        </task>
+        <task>
+            <p>
+                Repeat with the <url href="http://www.setgame.com/set/puzzle">Daily SET Puzzle.</url>
+            </p>
+        </task>
+      </activity>
+
+      <activity>
+        <p>
+          Play SET!
+        </p>
+      </activity>
+
+      <activity>
+        <introduction>
+            <p>
+                For each of the following, determine what card(s) if any could be added to form a SET:
+            </p>
+        </introduction>
+            
+            <task>
+              <sidebyside>
+                <image source="img/2GSoD.png" width="33%"/> <image source="img/2PSoO.png" width="33%"/> 
+              </sidebyside>
+            </task>
+
+            <task>
+              <sidebyside>
+                <image source="img/1RSoS.png" width="33%"/> <image source="img/3RStS.png" width="33%"/> 
+              </sidebyside>
+            </task>
+
+            <task>
+              <sidebyside>
+                <image source="img/2PStS.png" width="33%"/> <image source="img/3GEmO.png" width="33%"/> 
+              </sidebyside>
+            </task>
+
+
+        <task>
+          <p>
+            Pick any two cards, can you find what card(s) if any will complete a set?  Repeat.
+          </p>
+        </task>
+        
+      </activity>
+
+      <problem>
+        <p>
+          For any two cards, is it always possible to find a third card to complete a SET?  How many options do you have?  Justify your assertions.
+        </p>
+      </problem>
+
+      <activity xml:id="activity-buildplane">
+        <task>
+          <p>
+            Pick any three cards who do <em>not</em> form a set and arrange them in a corner of a <m>3\times 3</m> grid 
+            like so: 
+          </p>
+          <image source="img/Partial_Set.png" />
+        </task>
+        <task>
+          <p>
+            Fill out this grid so that each row, column and diagonal forms a SET.
+          </p>
+        </task>
+        <task>
+          <p>
+            For each pair of cards on this grid, is there a third card also on this grid which forms a SET?
+          </p>
+        </task>
+      </activity>
+
+      <problem>
+        <p>
+          For the grid you constructed in  <xref ref="activity-buildplane" />, how would you describe the position of
+          the sets in relation to the grid?
+        </p>
+      </problem>
+
+      
+      
+
+    
+  </section>

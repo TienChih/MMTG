@@ -1,0 +1,215 @@
+<section xml:id="section-plane">
+    <title>Neutral Plane Axioms</title>
+    <subsection xml:id="subsec-models">
+      <title>Introducing Axiom Systems and Models</title>
+      
+    
+      <definition xml:id="def-geometry">
+        <statement>
+          <p>
+            An <em>axiom system</em> has two components:
+            <ol>
+              <li>
+                <p>
+                  A set of special words that we officially assume have no meaning. The words are
+            sometimes called undefined terms, primitives or technical terms.
+                </p>
+                <p>
+                  A set of statements called axioms that we assume to be true concerning the undefined
+            terms.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <statement>
+          <p>
+            A <em>model</em> of an axiom system is a set of meanings for the undefined terms.
+            These meanings are assigned without any regard for whether the axioms become true statements about the undefined terms.
+          </p>
+        </statement>
+      </definition>
+
+      <example xmlId="example-4point">
+        <p>
+          Consider the following axiom system, the <em>4 point geometry</em>.  Let <em>point</em>, <em>line</em> and <em>belongs</em> be the undefined terms.  The axioms are:
+          <ol>
+            
+            <li>
+              <p>
+                There are 4 points.
+              </p>
+            </li>
+            <li>
+              <p>
+                Given two distinct points, there is exactly one line that they both belong to.
+              </p>
+            </li>
+            <li>
+              <p>
+                Each line has exactly two points belonging to it.
+              </p>
+            </li>
+          </ol>
+          Then the following are models of this axiom system.
+        </p>
+
+        <ol>
+          <li>
+            <p>
+              Points are letters, lines are columns, a point belongs a line if it is on the column:
+              <me>
+                \begin{array}{|c|c|c|}
+                \hline
+                A &amp; A &amp; A &amp; B &amp; B &amp; C \\
+                B &amp; C &amp; D &amp; C &amp; D &amp; D \\ 
+                \hline  
+                \end{array}
+              </me>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Points are dots, segments are lines, point belongs to a line if a segment connects them:
+              <figure xml:id="figure-K4">
+                <caption>A model for a 4-point geometry</caption>
+                <image xml:id="image-K4" width="50%">
+                  <description>A complete graph on 4 vertices.</description>
+                  <latex-image>
+                    \begin{tikzpicture}
+                    \draw[fill] (0,0) circle (2pt) node[above right]{\tiny$1$};
+                    \draw[fill] (0,1) circle (2pt) node[above ]{\tiny$2$};
+                    \draw[fill] ({sin(120)},{cos(120)}) circle (2pt) node[below right]{\tiny$3$};
+                    \draw[fill] ({sin(240)},{cos(240)}) circle (2pt) node[below left]{\tiny$4$};
+                    \draw (0,0)-- (0,1) -- ({sin(120)},{cos(120)}) -- ({sin(240)},{cos(240)}) -- (0,1);
+                    \draw (0,0) -- ({sin(240)},{cos(240)});
+                    \draw (0,0) -- ({sin(120)},{cos(120)});
+                    \end{tikzpicture}
+                  </latex-image>
+                </image>
+              </figure>
+              
+            </p>
+          </li>
+        </ol>
+        
+      </example>
+
+      <problem>
+        <task>
+          <statement>
+            <p>
+              Come up with your own model for the 4 point geometry.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Exaplain why the following is <em>not</em> a model for the 4 point geometry
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Compare your model to everyone else's models and the examples in <xref ref="example-4point"/>.  
+              Are these models <em>actually</em> different?
+            </p>
+          </statement>
+        </task>
+      </problem>
+    </subsection>
+
+    <subsection xml:id="subsec-planeaxioms">
+      <title>Neutral Plane Axioms</title>
+      <p>
+        We consider the following axiom system.  Let <em>point</em>, <em>line</em> and <em>belongs</em> be the undefined terms. 
+      </p>
+
+      
+      <axiom xml:id="axiom-linesize">
+        <statement>
+          <p>
+            For each line <m>L</m>, there are at least two distinct points belonging to  <m>L</m>.
+          </p>
+        </statement>
+      </axiom>
+
+      <axiom xml:id="axiom-notbelong">
+        <statement>
+          <p>
+            For each line <m>L</m>, then there is at least one point not belonging to <m>L</m>.
+          </p>
+        </statement>
+      </axiom>
+
+      <axiom xml:id="axiom-existsline">
+        <statement>
+          <p>
+            There exists at least one line.
+          </p>
+        </statement>
+      </axiom>
+
+      <question>
+        <p>
+          Would any model for the 4-point geometry also be a model for this axiom system?  Justify your assertion.
+        </p>
+      </question>
+
+      <question>
+        <p>
+          What is the minimum number of points possible for a model of this axiom system?  Justify your assertion.
+        </p>
+      </question>
+
+      <question>
+        <p>
+          Find a model that satisfies <xref ref = "axiom-linesize"/>, and <xref ref ="axiom-existsline"/> but not <xref ref = "axiom-notbelong"/>.
+        </p>
+      </question>
+
+      <question>
+        <p>
+          Find a model that satisfies <xref ref = "axiom-linesize"/>,   <xref ref = "axiom-notbelong"/>   and <xref ref ="axiom-existsline"/> in which at least two points belong
+          to no line.
+        </p>
+      </question>
+
+      <question>
+        <p>
+          Prove or disprove: Each point belongs to a line.
+        </p>
+      </question>
+
+      <p>
+        Since such a <q>geometry</p> is fundamentally uninteresting, we add a fourth axiom.
+      </p>
+
+      <axiom xml:id="axiom-notbelong">
+        <statement>
+          <p>
+            For each pair of distinct points,  there is at least one line they both belong to.
+          </p>
+        </statement>
+      </axiom>
+
+      <question>
+        <p>
+          Let cards be points and SETs be lines.  Does the grid you constructed in  <xref ref="activity-buildplane" /> satisfy all four of out 
+        </p>
+      </question>
+      
+      
+
+        
+      
+    </subsection>
+
+      
+      
+
+    
+  </section>
