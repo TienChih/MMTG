@@ -53,7 +53,7 @@
       
       <xi:include  href="geometry/plane.ptx"/>
 
-    </chapter>
+    </chapter>  
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
