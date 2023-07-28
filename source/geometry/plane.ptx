@@ -375,13 +375,13 @@ points that can belong to both <m>L</m> and <m>H</m>? Prove your answer.
 
       <problem>
         <p>
-          Find a model four our axioms where every pair of lines intersect.
+          Find a model for our axioms where every pair of lines intersect.
         </p>
       </problem>
 
       <problem>
         <p>
-          For any model of our axios, let <m>L</m> be a line and let <m>A</m> be a point which doesn't belong to <m>L</m>.  
+          For any model of our axioms, let <m>L</m> be a line and let <m>A</m> be a point which doesn't belong to <m>L</m>.  
           What can we say about the number of lines which contain <m>A</m> but don't intersect <m>L</m>.
         </p>
       </problem>
