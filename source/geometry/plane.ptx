@@ -120,6 +120,8 @@
           </statement>
         </task>
       </problem>
+
+
     </subsection>
 
     <subsection xml:id="subsec-planeaxioms">
@@ -153,42 +155,42 @@
         </statement>
       </axiom>
 
-      <question>
+      <problem>
         <p>
           Would any model for the 4-point geometry also be a model for this axiom system?  Justify your assertion.
         </p>
-      </question>
+      </problem>
 
-      <question>
+      <problem>
         <p>
           What is the minimum number of points possible for a model of this axiom system?  Justify your assertion.
         </p>
-      </question>
+      </problem>
 
-      <question>
+      <problem>
         <p>
           Find a model that satisfies <xref ref = "axiom-linesize"/>, and <xref ref ="axiom-existsline"/> but not <xref ref = "axiom-notbelong"/>.
         </p>
-      </question>
+      </problem>
 
-      <question>
+      <problem>
         <p>
           Find a model that satisfies <xref ref = "axiom-linesize"/>,   <xref ref = "axiom-notbelong"/>   and <xref ref ="axiom-existsline"/> in which at least two points belong
           to no line.
         </p>
-      </question>
+      </problem>
 
-      <question>
+      <problem>
         <p>
           Prove or disprove: Each point belongs to a line.
         </p>
-      </question>
+      </problem>
 
       <p>
-        Since such a <q>geometry</p> is fundamentally uninteresting, we add a fourth axiom.
+        Since such a <q>geometry</q> is fundamentally uninteresting, we add a fourth axiom.
       </p>
 
-      <axiom xml:id="axiom-notbelong">
+      <axiom xml:id="axiom-twopointweak">
         <statement>
           <p>
             For each pair of distinct points,  there is at least one line they both belong to.
@@ -196,11 +198,103 @@
         </statement>
       </axiom>
 
-      <question>
+      <problem>
         <p>
-          Let cards be points and SETs be lines.  Does the grid you constructed in  <xref ref="activity-buildplane" /> satisfy all four of out 
+          Let cards be points and SETs be lines.  Does the grid you constructed in  <xref ref="activity-buildplane" /> 
+          satisfy all four of our axioms?  Justify your assertion. 
         </p>
-      </question>
+      </problem>
+
+       <problem>
+        <statement>
+          <p>
+            Find the invalid line of the following <q>proof</q>.
+          </p>
+        </statement>
+        
+      </problem>
+     <proof>
+        <p>
+          By <xref ref ="axiom-existsline"/>, there is a line <m>L</m>, by <xref ref = "axiom-linesize"/>, <m>L</m> has two points,
+          <m>A</m>, <m>B</m>.  So for each point <m>A</m>, there is a line containing <m>A</m>.
+        </p>
+      </proof>
+
+      <problem>
+        <p>
+          Prove that every point belongs to a line.
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Is it possible that some point belongs to only one line? Prove your response.
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Find a model that satisfies our axiom system in which there are two different
+points <m>A</</m> and <m>B</</m> such that at least two different lines each contain both <m>A</m> and <m>B</m>.
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Find a model that satisfies our axiom system in which there are two different
+points <m>A</</m> and <m>B</</m> such that at least two different lines each contain both <m>A</m> and <m>B</m>.
+        </p>
+      </problem>
+
+      <p>
+        Since this axiom system still seems flawed, we replace the fourth axiom with a stronger version.
+      </p>
+
+      <axiom xml:id="axiom-twopoint">
+        <statement>
+          <p>
+            For each pair of distinct points,  there is <em>exactly</em>ine they both belong to.
+          </p>
+        </statement>
+      </axiom>
+
+      <definition>
+        <p>
+          We let <m> {AB}</m> denote the line containing both <m>A</m> and <m>B</m>.
+        </p>
+      </definition>
+
+      <definition>
+        <p>
+          A collection of points are <em>colinear</em> if there are is a line which all the points in the collection belong to.
+        </p>
+      </definition>
+
+      <problem>
+        <p>
+          What would we mean by the statement that points are non-collinear?
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Is it true that given a point that there exist two more points such that the three
+          points are collinear? Prove your answer.
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Can we say each point is not in some line? Prove your answer.
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Suppose <m>L</m> and <m>H</</m> are different lines. What can you say about the number of
+points that can belong to both <m>L</</m> and <m>H</m>? Prove your answer.
+        </p>
+      </problem>
       
       
 
