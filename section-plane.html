@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Neutral Plane Axioms</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Modern Math through Games">
+<meta property="book:author" content="Tien Chih">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="MMTG.html"><span class="title">Modern Math through Games:</span> <span class="subtitle">Notes for Discovery Seminar</span></a></h1>
+<p class="byline">Tien Chih</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="section-set.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-geometry.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li><div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="chapter-geometry.html" class="internal"><span class="codenumber">1</span> <span class="title">Geometry?  In my card game?</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="section-set.html" class="internal"><span class="codenumber">1.1</span> <span class="title">SET</span></a></div></li>
+<li class="active">
+<div class="toc-item"><a href="section-plane.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Neutral Plane Axioms</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="section-plane.html#subsec-models" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Introducing Axiom Systems and Models</span></a></div></li>
+<li><div class="toc-item"><a href="section-plane.html#subsec-planeaxioms" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Neutral Plane Axioms</span></a></div></li>
+<li><div class="toc-item"><a href="section-plane.html#subsec-parallel" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Parallelism</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-plane"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.2</span> <span class="title">Neutral Plane Axioms</span>
+</h2>
+<section class="subsection" id="subsec-models"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.2.1</span> <span class="title">Introducing Axiom Systems and Models</span>
+</h3>
+<article class="definition definition-like" id="def-geometry"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="p-22">
+<div class="para">An <em class="emphasis">axiom system</em> has two components:</div>
+<ol class="decimal"><li id="li-7">
+<div class="para" id="p-23">A set of special words that we officially assume have no meaning. The words are sometimes called undefined terms, primitives or technical terms.</div>
+<div class="para" id="p-24">A set of statements called axioms that we assume to be true concerning the undefined terms.</div>
+</li></ol>
+</div> <div class="para" id="p-25">A <em class="emphasis">model</em> of an axiom system is a set of meanings for the undefined terms. These meanings are assigned without any regard for whether the axioms become true statements about the undefined terms.</div></article><article class="example example-like" id="example-1"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="p-26">
+<div class="para">Consider the following axiom system, the <em class="emphasis">4 point geometry</em>.  Let <em class="emphasis">point</em>, <em class="emphasis">line</em> and <em class="emphasis">belongs</em> be the undefined terms.  The axioms are:</div>
+<ol class="decimal">
+<li id="li-8"><div class="para" id="p-27">There are 4 points.</div></li>
+<li id="li-9"><div class="para" id="p-28">Given two distinct points, there is exactly one line that they both belong to.</div></li>
+<li id="li-10"><div class="para" id="p-29">Each line has exactly two points belonging to it.</div></li>
+</ol>
+<div class="para">Then the following are models of this axiom system.</div>
+</div> <ol class="decimal">
+<li id="li-11"><div class="para logical" id="p-30">
+<div class="para">Points are letters, lines are columns, a point belongs a line if it is on the column:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{|c|c|c|}
+\hline
+A &amp; A &amp; A &amp; B &amp; B &amp; C \\
+B &amp; C &amp; D &amp; C &amp; D &amp; D \\ 
+\hline  
+\end{array}
+\end{equation*}
+</div>
+</div></li>
+<li id="li-12"><div class="para" id="p-31">Points are dots, segments are lines, point belongs to a line if a segment connects them: <figure class="figure figure-like" id="figure-K4"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/image-K4.svg" role="img" class="contained" alt="A complete graph on 4 vertices."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.3<span class="period">.</span></span><span class="space"> </span>A model for a 4-point geometry</figcaption></figure>
+</div></li>
+</ol></article><article class="problem example-like" id="problem-3"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="period">.</span>
+</h4>
+<article class="task exercise-like" id="task-17"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="p-32">Come up with your own model for the 4 point geometry.</div></article><article class="task exercise-like" id="task-18"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-33">Exaplain why the following is <em class="emphasis">not</em> a model for the 4 point geometry</div></article><article class="task exercise-like" id="task-19"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="p-34">Compare your model to everyone else’s models and the examples in <code class="code-inline tex2jax_ignore">[cross-reference to target(s) "example-4point" missing or not unique]</code>. Are these models <em class="emphasis">actually</em> different?</div></article></article></section><section class="subsection" id="subsec-planeaxioms"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.2.2</span> <span class="title">Neutral Plane Axioms</span>
+</h3>
+<div class="para" id="p-35">We consider the following axiom system.  Let <em class="emphasis">point</em>, <em class="emphasis">line</em> and <em class="emphasis">belongs</em> be the undefined terms.</div>
+<article class="axiom theorem-like" id="axiom-linesize"><h4 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-36">For each line <span class="process-math">\(L\text{,}\)</span> there are at least two distinct points belonging to  <span class="process-math">\(L\text{.}\)</span>
+</div></article><article class="axiom theorem-like" id="axiom-notbelong"><h4 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-37">For each line <span class="process-math">\(L\text{,}\)</span> then there is at least one point not belonging to <span class="process-math">\(L\text{.}\)</span>
+</div></article><article class="axiom theorem-like" id="axiom-existsline"><h4 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">1.2.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-38">There exists at least one line.</div></article><article class="problem example-like" id="problem-4"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-39">Would any model for the 4-point geometry also be a model for this axiom system?  Justify your assertion.</div></article><article class="problem example-like" id="problem-5"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-40">What is the minimum number of points possible for a model of this axiom system?  Justify your assertion.</div></article><article class="problem example-like" id="problem-6"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-41">Find a model that satisfies <a href="" class="xref" data-knowl="./knowl/axiom-linesize.html" title="Axiom 1.2.5">Axiom 1.2.5</a>, and <a href="" class="xref" data-knowl="./knowl/axiom-existsline.html" title="Axiom 1.2.7">Axiom 1.2.7</a> but not <a href="" class="xref" data-knowl="./knowl/axiom-notbelong.html" title="Axiom 1.2.6">Axiom 1.2.6</a>.</div></article><article class="problem example-like" id="problem-7"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.11</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-42">Find a model that satisfies <a href="" class="xref" data-knowl="./knowl/axiom-linesize.html" title="Axiom 1.2.5">Axiom 1.2.5</a>,   <a href="" class="xref" data-knowl="./knowl/axiom-notbelong.html" title="Axiom 1.2.6">Axiom 1.2.6</a>   and <a href="" class="xref" data-knowl="./knowl/axiom-existsline.html" title="Axiom 1.2.7">Axiom 1.2.7</a> in which at least two points belong to no line.</div></article><article class="problem example-like" id="problem-8"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.12</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-43">Prove or disprove: Each point belongs to a line.</div></article><div class="para" id="p-44">Since such a “geometry” is fundamentally uninteresting, we add a fourth axiom.</div>
+<article class="axiom theorem-like" id="axiom-twopointweak"><h4 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">1.2.13</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-45">For each pair of distinct points,  there is at least one line they both belong to.</div></article><article class="problem example-like" id="problem-9"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-46">Let cards be points and SETs be lines.  Does the grid you constructed in  <a href="" class="xref" data-knowl="./knowl/activity-buildplane.html" title="Activity 1.1.6">Activity 1.1.6</a> satisfy all four of our axioms?  Justify your assertion.</div></article><article class="problem example-like" id="problem-10"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.15</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-47">Find the invalid line of the following “proof”.</div></article><article class="hiddenproof" id="proof-1"><a href="" data-knowl="" class="id-ref proof-knowl original" data-refid="hk-proof-1"><h4 class="heading"><span class="type">Proof<span class="period">.</span></span></h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-proof-1"><article class="hiddenproof"><div class="para" id="p-48">By <a href="" class="xref" data-knowl="./knowl/axiom-existsline.html" title="Axiom 1.2.7">Axiom 1.2.7</a>, there is a line <span class="process-math">\(L\text{,}\)</span> by <a href="" class="xref" data-knowl="./knowl/axiom-linesize.html" title="Axiom 1.2.5">Axiom 1.2.5</a>, <span class="process-math">\(L\)</span> has two points, <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{.}\)</span>  So for each point <span class="process-math">\(A\text{,}\)</span> there is a line containing <span class="process-math">\(A\text{.}\)</span>
+</div></article></div>
+<article class="problem example-like" id="problem-11"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.16</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-49">Prove that every point belongs to a line.</div></article><article class="problem example-like" id="problem-12"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.17</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-50">Is it possible that some point belongs to only one line? Prove your response.</div></article><article class="problem example-like" id="problem-13"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.18</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-51">Find a model that satisfies our axiom system in which there are two different points <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> such that at least two different lines each contain both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-14"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.19</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-52">Find a model that satisfies our axiom system in which there are two different points <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> such that at least two different lines each contain both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span>
+</div></article><div class="para" id="p-53">Since this axiom system still seems flawed, we replace the fourth axiom with a stronger version.</div>
+<article class="axiom theorem-like" id="axiom-twopoint"><h4 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">1.2.20</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-54">For each pair of distinct points,  there is <em class="emphasis">exactly</em> one line they both belong to.</div></article><article class="definition definition-like" id="definition-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.21</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-55">We let <span class="process-math">\({AB}\)</span> denote the line containing both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span>
+</div></article><article class="definition definition-like" id="definition-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.22</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-56">A collection of points are <em class="emphasis">colinear</em> if there are is a line which all the points in the collection belong to.</div></article><article class="problem example-like" id="problem-15"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.23</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-57">What would we mean by the statement that points are non-collinear?</div></article><article class="problem example-like" id="problem-16"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.24</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-58">Is it true that given a point that there exist two more points such that the three points are collinear? Prove your answer.</div></article><article class="problem example-like" id="problem-17"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.25</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-59">Can we say each point is not in some line? Prove your answer.</div></article><article class="problem example-like" id="problem-18"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.26</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-60">Suppose <span class="process-math">\(L\)</span> and <span class="process-math">\(H\)</span> are different lines. What can you say about the number of points that can belong to both <span class="process-math">\(L\)</span> and <span class="process-math">\(H\text{?}\)</span> Prove your answer.</div></article><article class="definition definition-like" id="def-intersect"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.27</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-61">If <span class="process-math">\(L, M\)</span> are lines, and a point <span class="process-math">\(A\)</span> belongs to both lines, we say <span class="process-math">\(L\)</span> and <span class="process-math">\(M\)</span> <em class="emphasis">intersect</em><span class="process-math">\(A\text{.}\)</span>
+</div></article></section><section class="subsection" id="subsec-parallel"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.2.3</span> <span class="title">Parallelism</span>
+</h3>
+<article class="problem example-like" id="problem-19"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.28</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="introduction-4"><div class="para" id="p-62">Let points be ordered pairs <span class="process-math">\((x,y)\)</span> such that <span class="process-math">\(x, y\)</span> are real numbers.  Let lines by sets of points which satisfy the equality <span class="process-math">\(ax+by=c\)</span> for some <span class="process-math">\(a,b,c\text{.}\)</span>  (This should be familiar).</div></div>
+<article class="task exercise-like" id="task-20"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="p-63">Show that this model satisfies our axioms.</div></article><article class="task exercise-like" id="task-21"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-64">Let <span class="process-math">\(L\)</span> be a line and let <span class="process-math">\(A\)</span> be a point which doesn’t belong to <span class="process-math">\(L\text{.}\)</span>  How many lines are there that contain <span class="process-math">\(A\)</span> but don’t intersect <span class="process-math">\(L\text{.}\)</span>
+</div></article></article><article class="problem example-like" id="problem-20"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.29</span><span class="period">.</span>
+</h4>
+<div class="introduction" id="introduction-5">
+<div class="para" id="p-65">Let points be ordered pairs <span class="process-math">\((x,y)\)</span> such that <span class="process-math">\(x, y\)</span> are real numbers <em class="emphasis">and</em> <span class="process-math">\(x^2+y^2 &lt; 1\text{.}\)</span>  Let lines by sets of points which satisfy the equality <span class="process-math">\(ax+by=c\)</span> for some <span class="process-math">\(a,b,c\)</span> <em class="emphasis">and</em> <span class="process-math">\(x^2+y^2 &lt; 1\text{.}\)</span>  (This may not be familiar).</div> <div class="para" id="p-66"><iframe src="https://www.desmos.com/calculator/kxg6gu9n2q" id="interactive-1" width="600" height="300"></iframe></div>
+</div>
+<article class="task exercise-like" id="task-22"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="p-67">Show that this model satisfies our axioms.</div></article><article class="task exercise-like" id="task-23"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-68">Let <span class="process-math">\(L\)</span> be a line and let <span class="process-math">\(A\)</span> be a point which doesn’t belong to <span class="process-math">\(L\text{.}\)</span>  How many lines are there that contain <span class="process-math">\(A\)</span> but don’t intersect <span class="process-math">\(L\text{.}\)</span>
+</div></article></article><article class="problem example-like" id="problem-21"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.30</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-69">Find a model for our axioms where every pair of lines intersect.</div></article><article class="problem example-like" id="problem-22"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.31</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-70">For any model of our axioms, let <span class="process-math">\(L\)</span> be a line and let <span class="process-math">\(A\)</span> be a point which doesn’t belong to <span class="process-math">\(L\text{.}\)</span> What can we say about the number of lines which contain <span class="process-math">\(A\)</span> but don’t intersect <span class="process-math">\(L\text{.}\)</span>
+</div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="section-set.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
