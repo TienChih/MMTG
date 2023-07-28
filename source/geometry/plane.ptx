@@ -234,15 +234,14 @@
 
       <problem>
         <p>
-          Find a model that satisfies our axiom system in which there are two different
-points <m>A</</m> and <m>B</</m> such that at least two different lines each contain both <m>A</m> and <m>B</m>.
+          Find a model that satisfies our axiom system in which there are two different points <m>A</m> and <m>B</m> such that at least two different lines each contain both <m>A</m> and <m>B</m>.
         </p>
       </problem>
 
       <problem>
         <p>
           Find a model that satisfies our axiom system in which there are two different
-points <m>A</</m> and <m>B</</m> such that at least two different lines each contain both <m>A</m> and <m>B</m>.
+points <m>A</m> and <m>B</m> such that at least two different lines each contain both <m>A</m> and <m>B</m>.
         </p>
       </problem>
 
@@ -253,7 +252,7 @@ points <m>A</</m> and <m>B</</m> such that at least two different lines each con
       <axiom xml:id="axiom-twopoint">
         <statement>
           <p>
-            For each pair of distinct points,  there is <em>exactly</em>ine they both belong to.
+            For each pair of distinct points,  there is <em>exactly</em> one line they both belong to.
           </p>
         </statement>
       </axiom>
@@ -291,16 +290,101 @@ points <m>A</</m> and <m>B</</m> such that at least two different lines each con
 
       <problem>
         <p>
-          Suppose <m>L</m> and <m>H</</m> are different lines. What can you say about the number of
-points that can belong to both <m>L</</m> and <m>H</m>? Prove your answer.
+          Suppose <m>L</m> and <m>H</m> are different lines. What can you say about the number of
+points that can belong to both <m>L</m> and <m>H</m>? Prove your answer.
         </p>
-      </problem>.  
+      </problem>
+      
+      <definition xml:id="def-intersect">
+        <statement>
+          <p>
+            If <m>L, M</m> are lines, and a point <m>A</m> belongs to both lines, 
+            we say <m>L</m> and <m>M</m> <em>intersect</em><m>A</m>.
+          </p>
+        </statement>
+      </definition>
 
       
       
       
 
         
+      
+    </subsection>
+
+    <subsection xml:id="subsec-parallel">
+      <title>Parallelism</title>
+
+      <problem>
+        <introduction>
+          <p>
+            Let points be ordered pairs <m>(x,y)</m> such that <m>x, y</m> are real numbers.  Let lines by sets of points which satisfy the
+            equality <m>ax+by=c</m> for some <m>a,b,c</m>.  (This should be familiar).
+          </p>
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              Show that this model satisfies our axioms.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Let <m>L</m> be a line and let <m>A</m> be a point which doesn't belong to <m>L</m>.  How many lines are there that
+              contain <m>A</m> but don't intersect <m>L</m>.
+            </p>
+          </statement>
+        </task>
+        
+      </problem>
+
+      <problem>
+        <introduction>
+          <p>
+            Let points be ordered pairs <m>(x,y)</m> such that <m>x, y</m> are real numbers <em>and</em> <m>x^2+y^2 &lt; 1</m>.  Let lines by sets of points which satisfy the
+            equality <m>ax+by=c</m> for some <m>a,b,c</m> <em>and</em> <m>x^2+y^2 &lt; 1</m>.  (This may not be familiar).
+          </p>
+          <p>
+            <interactive desmos="kxg6gu9n2q" width="100%" aspect="2:1" />
+          </p>
+
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              Show that this model satisfies our axioms.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Let <m>L</m> be a line and let <m>A</m> be a point which doesn't belong to <m>L</m>.  How many lines are there that
+              contain <m>A</m> but don't intersect <m>L</m>.
+            </p>
+          </statement>
+        </task>
+        
+      </problem>
+
+      <problem>
+        <p>
+          Find a model four our axioms where every pair of lines intersect.
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          For any model of our axios, let <m>L</m> be a line and let <m>A</m> be a point which doesn't belong to <m>L</m>.  
+          What can we say about the number of lines which contain <m>A</m> but don't intersect <m>L</m>.
+        </p>
+      </problem>
       
     </subsection>
 
