@@ -397,6 +397,87 @@ var ptx_lunr_docs = [
   "body": " For any model of our axioms, let be a line and let be a point which doesn't belong to . What can we say about the number of lines which contain but don't intersect .  "
 },
 {
+  "id": "section-set",
+  "level": "1",
+  "url": "section-set.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "P(rojective) SET",
+  "body": " P(rojective) SET  Each card consists of two SET cards glued together .   A SET card      A SET is a collection of 3 cards such that the cards may be flipped over in such a way so that both the top and the bottom form SETs.      Verify that the following are SETs.       What SETs can you find here?   12 SET cards.      Play SET!    What card(s) can you add to form a SET?   Out of these cards, how many SETs can you find?  Pick any two cards, can you find what card(s) if any will complete a set? How many SETs can you find? Repeat.    We will let a line in the SET context to be a collection of 4 cards so that every 3 card subset forms a SET.    Pick any three cards who do not form a SET and arrange them in a corner of the grid:  Fill out this grid so that each line forms a line .  For each pair of cards on this grid, so they lie on exactly one line ?   "
+},
+{
+  "id": "Pset_card",
+  "level": "2",
+  "url": "section-set.html#Pset_card",
+  "type": "Figure",
+  "number": "1.3.1",
+  "title": "",
+  "body": "  A SET card  "
+},
+{
+  "id": "def-PSET",
+  "level": "2",
+  "url": "section-set.html#def-PSET",
+  "type": "Definition",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  A SET is a collection of 3 cards such that the cards may be flipped over in such a way so that both the top and the bottom form SETs.   "
+},
+{
+  "id": "activity-7",
+  "level": "2",
+  "url": "section-set.html#activity-7",
+  "type": "Activity",
+  "number": "1.3.1",
+  "title": "",
+  "body": "  Verify that the following are SETs.     "
+},
+{
+  "id": "activity-8",
+  "level": "2",
+  "url": "section-set.html#activity-8",
+  "type": "Activity",
+  "number": "1.3.2",
+  "title": "",
+  "body": " What SETs can you find here?   12 SET cards.    "
+},
+{
+  "id": "activity-9",
+  "level": "2",
+  "url": "section-set.html#activity-9",
+  "type": "Activity",
+  "number": "1.3.3",
+  "title": "",
+  "body": " Play SET!  "
+},
+{
+  "id": "activity-10",
+  "level": "2",
+  "url": "section-set.html#activity-10",
+  "type": "Activity",
+  "number": "1.3.4",
+  "title": "",
+  "body": " What card(s) can you add to form a SET?   Out of these cards, how many SETs can you find?  Pick any two cards, can you find what card(s) if any will complete a set? How many SETs can you find? Repeat.  "
+},
+{
+  "id": "remark-1",
+  "level": "2",
+  "url": "section-set.html#remark-1",
+  "type": "Remark",
+  "number": "1.3.4",
+  "title": "",
+  "body": " We will let a line in the SET context to be a collection of 4 cards so that every 3 card subset forms a SET.  "
+},
+{
+  "id": "activity-buildplane",
+  "level": "2",
+  "url": "section-set.html#activity-buildplane",
+  "type": "Activity",
+  "number": "1.3.5",
+  "title": "",
+  "body": " Pick any three cards who do not form a SET and arrange them in a corner of the grid:  Fill out this grid so that each line forms a line .  For each pair of cards on this grid, so they lie on exactly one line ?  "
+},
+{
   "id": "colophon-2",
   "level": "1",
   "url": "colophon-2.html",
