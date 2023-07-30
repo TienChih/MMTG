@@ -397,9 +397,9 @@ var ptx_lunr_docs = [
   "body": " For any model of our axioms, let be a line and let be a point which doesn't belong to . What can we say about the number of lines which contain but don't intersect .  "
 },
 {
-  "id": "section-set",
+  "id": "section-pset",
   "level": "1",
-  "url": "section-set.html",
+  "url": "section-pset.html",
   "type": "Section",
   "number": "1.3",
   "title": "P(rojective) SET",
@@ -408,7 +408,7 @@ var ptx_lunr_docs = [
 {
   "id": "Pset_card",
   "level": "2",
-  "url": "section-set.html#Pset_card",
+  "url": "section-pset.html#Pset_card",
   "type": "Figure",
   "number": "1.3.1",
   "title": "",
@@ -417,7 +417,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-PSET",
   "level": "2",
-  "url": "section-set.html#def-PSET",
+  "url": "section-pset.html#def-PSET",
   "type": "Definition",
   "number": "1.3.2",
   "title": "",
@@ -426,7 +426,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-7",
   "level": "2",
-  "url": "section-set.html#activity-7",
+  "url": "section-pset.html#activity-7",
   "type": "Activity",
   "number": "1.3.1",
   "title": "",
@@ -435,7 +435,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-8",
   "level": "2",
-  "url": "section-set.html#activity-8",
+  "url": "section-pset.html#activity-8",
   "type": "Activity",
   "number": "1.3.2",
   "title": "",
@@ -444,7 +444,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-9",
   "level": "2",
-  "url": "section-set.html#activity-9",
+  "url": "section-pset.html#activity-9",
   "type": "Activity",
   "number": "1.3.3",
   "title": "",
@@ -453,7 +453,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-10",
   "level": "2",
-  "url": "section-set.html#activity-10",
+  "url": "section-pset.html#activity-10",
   "type": "Activity",
   "number": "1.3.4",
   "title": "",
@@ -462,7 +462,7 @@ var ptx_lunr_docs = [
 {
   "id": "remark-1",
   "level": "2",
-  "url": "section-set.html#remark-1",
+  "url": "section-pset.html#remark-1",
   "type": "Remark",
   "number": "1.3.4",
   "title": "",
@@ -471,7 +471,7 @@ var ptx_lunr_docs = [
 {
   "id": "activity-buildplane",
   "level": "2",
-  "url": "section-set.html#activity-buildplane",
+  "url": "section-pset.html#activity-buildplane",
   "type": "Activity",
   "number": "1.3.5",
   "title": "",
