@@ -1,0 +1,123 @@
+<section xml:id="section-set">
+    <title>P(rojective) SET</title>
+    <p>
+      Each <m>\mathbb{P}</m> card consists of two SET cards <q>glued together</q>.
+      
+      <figure xml:id="Pset_card">
+        <image source="img/PSETcard.png" width="33%"/>
+        
+        <caption>A <m>P</m>SET card</caption>
+      </figure>
+    </p>
+
+      <definition xml:id="def-PSET">
+        <statement>
+          <p>
+            A <m>\mathbb{P}</m><em>SET</em> is a collection of 3 cards such that the cards may be flipped over in
+            such a way so that both the top and the bottom form SETs.
+          </p>
+        </statement>
+      </definition>
+
+      <activity>
+        <introduction>
+        <p>
+          Verify that the following are <m>\mathbb{P}</m>SETs.
+        </p>
+        </introduction>
+          <task>
+            <image source="img/PSET2.png" /> 
+
+          </task>
+
+          <task>
+            <image source="img/PSET1.png" /> 
+
+          </task>
+      </activity>
+
+      
+
+      
+
+      <activity>
+        <task>
+            <p>
+            What <m>\mathbb{P}</m>SETs can you find here?
+
+            <figure xml:id="findsets">
+                <image source="img/PSETBoard.png" />
+                <caption>12 SET cards.</caption>
+            </figure>
+
+
+            </p>
+        </task>
+        
+      </activity>
+
+      <activity>
+        <p>
+          Play <m>\mathbb{P}</m>SET!
+        </p>
+      </activity>
+
+      <activity>
+        
+            
+        <task>
+          <p>
+            What card(s) can you add to form  a <m>\mathbb{P}</m>SET?
+            <image source="img/PartialPSET.png" width="66%"/> 
+          </p>
+        </task>
+
+            
+        <task>
+          <p>
+            Out of these cards, how many <m>\mathbb{P}</m>SETs can you find?
+          </p>
+        </task>
+            
+
+
+        <task>
+          <p>
+            Pick any two cards, can you find what card(s) if any will complete a set?  How many <m>\mathbb{P}</m>SETs can you find? Repeat.
+          </p>
+        </task>
+        
+      </activity>
+
+      <remark>
+        <p>
+          We will let a <m>\mathbb{P}</m><em>line</em> in the <m>\mathbb{P}</m>SET context to be a collection of 4 cards so that every 3 card subset forms a <m>\mathbb{P}</m>SET.
+        </p>
+      </remark>
+
+      <activity xml:id="activity-buildplane">
+        <task>
+          <p>
+            Pick any three cards who do <em>not</em> form a <m>\mathbb{P}</m>SET and arrange them in a corner of the <m>3\times 3</m> grid: 
+          </p>
+          <image source="img/PG23.png" />
+        </task>
+        <task>
+          <p>
+            Fill out this grid so that each line forms a <m>\mathbb{P}</m><em>line</em>.
+          </p>
+        </task>
+        <task>
+          <p>
+            For each pair of cards on this grid, so they lie on exactly one <m>\mathbb{P}</m><em>line</em>?
+          </p>
+        </task>
+      </activity>
+
+      
+
+      
+      
+
+    
+  </section>
