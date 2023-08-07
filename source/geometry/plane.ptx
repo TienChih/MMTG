@@ -193,7 +193,7 @@
       <axiom xml:id="axiom-twopointweak">
         <statement>
           <p>
-            For each pair of distinct points,  there is at least one line they both belong to.
+            For each pair of distinct points <m>P, Q</m>,  there is at least one line they both belong to.
           </p>
         </statement>
       </axiom>
@@ -202,6 +202,12 @@
         <p>
           Let cards be points and SETs be lines.  Does the grid you constructed in  <xref ref="activity-buildplane" /> 
           satisfy all four of our axioms?  Justify your assertion. 
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Find three <em>different</em> models of our four axioms (it's easier if they are finite). 
         </p>
       </problem>
 
@@ -252,14 +258,14 @@ points <m>A</m> and <m>B</m> such that at least two different lines each contain
       <axiom xml:id="axiom-twopoint">
         <statement>
           <p>
-            For each pair of distinct points,  there is <em>exactly</em> one line they both belong to.
+            For each pair of distinct points <m>P, Q</m>,  there is <em>exactly</em> one line they both belong to.
           </p>
         </statement>
       </axiom>
 
       <definition>
         <p>
-          We let <m> {AB}</m> denote the line containing both <m>A</m> and <m>B</m>.
+          We let <m> \overleftrightarrow{AB}</m> denote the line containing both <m>A</m> and <m>B</m>.
         </p>
       </definition>
 
@@ -373,9 +379,9 @@ points that can belong to both <m>L</m> and <m>H</m>? Prove your answer.
         
       </problem>
 
-      <problem>
+      <problem xml:id="problem-fano">
         <p>
-          Find a model for our axioms where every pair of lines intersect.
+          Find a model with 7 points for our axioms where every pair of lines intersect.
         </p>
       </problem>
 

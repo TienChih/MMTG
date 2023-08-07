@@ -48,6 +48,13 @@
       </colophon>
     </frontmatter>
 
+    <chapter xml:id="chapter-definitions">
+      <title>Where do definitions come from anyway?</title>
+
+      <xi:include  href="sandwich/sandwich.ptx"/>
+
+    </chapter>
+
     <chapter xml:id="chapter-geometry">
       <title>Geometry?  In my card game?</title>
 
@@ -56,6 +63,8 @@
       <xi:include  href="geometry/plane.ptx"/>
 
       <xi:include  href="geometry/pset.ptx"/>
+
+      <xi:include  href="geometry/projective.ptx"/>
 
     </chapter>  
 

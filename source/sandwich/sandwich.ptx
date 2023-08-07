@@ -1,0 +1,95 @@
+<section xml:id="section-sandwich">
+    <title>Definitions and Sandwiches</title>
+    
+    <activity>
+      <introduction>
+        <p>
+          Consider the following picture:
+          <figure xml:id="sandwiches">
+            
+            <image source="img/sandwiches.png"/>
+            
+            
+            <caption>Proposed sandwiches</caption>
+          </figure>
+        </p>
+      </introduction>
+      <task>
+        <p>
+          Draw a solid line seperating the sandwiches from the non-sandwiches in this picture.
+        </p>
+      </task>
+      <task>
+        <p>
+          Based on your choice above, come up with a <em>formal definition</em> of a sandwich.
+        </p>
+      </task>
+    </activity>
+
+    <activity>
+      <introduction>
+        <p>
+          Decide if the following fit the <q>formal definition</q> of a sandwich.
+        </p>
+      </introduction>
+
+      <task>
+        <hint>
+          <p>
+            <figure xml:id="KFC">
+              
+                <image source="img/KFC.jpg" width="50%"/>
+              
+              
+              <caption>KFC Doubledown.</caption>
+            </figure>
+
+          </p>
+        </hint>
+      </task>
+
+      <task>
+        <hint>
+          <p>
+            <figure xml:id="breadbowl">
+              
+                <image source="img/breadbowl.jpeg" width="50%"/>
+              
+              
+              <caption>Soup in a breadbowl.</caption>
+            </figure>
+
+          </p>
+        </hint>
+      </task>
+
+      <task>
+        <hint>
+          <p>
+            <figure xml:id="pita">
+              
+                <image source="img/Pita.jpg" width="50%"/>
+              
+              
+              <caption>Pita pocket.</caption>
+            </figure>
+
+          </p>
+        </hint>
+      </task>
+
+      <task>
+        <p>
+          What other weird items fit your definition of a sandwich?
+        </p>
+      </task>
+
+
+      
+    </activity>
+
+       
+      
+
+    
+  </section>
