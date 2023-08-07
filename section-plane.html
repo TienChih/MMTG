@@ -215,50 +215,61 @@ window.MathJax = {
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
 <li><div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li>
-<div class="toc-item"><a href="chapter-geometry.html" class="internal"><span class="codenumber">1</span> <span class="title">Geometry?  In my card game?</span></a></div>
+<div class="toc-item"><a href="chapter-definitions.html" class="internal"><span class="codenumber">1</span> <span class="title">Where do definitions come from anyway?</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="section-sandwich.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Definitions and Sandwiches</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="chapter-geometry.html" class="internal"><span class="codenumber">2</span> <span class="title">Geometry?  In my card game?</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="section-set.html" class="internal"><span class="codenumber">1.1</span> <span class="title">SET</span></a></div></li>
+<li><div class="toc-item"><a href="section-set.html" class="internal"><span class="codenumber">2.1</span> <span class="title">SET</span></a></div></li>
 <li class="active">
-<div class="toc-item"><a href="section-plane.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Neutral Plane Axioms</span></a></div>
+<div class="toc-item"><a href="section-plane.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Neutral Plane Axioms</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="section-plane.html#subsec-models" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Introducing Axiom Systems and Models</span></a></div></li>
-<li><div class="toc-item"><a href="section-plane.html#subsec-planeaxioms" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Neutral Plane Axioms</span></a></div></li>
-<li><div class="toc-item"><a href="section-plane.html#subsec-parallel" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Parallelism</span></a></div></li>
+<li><div class="toc-item"><a href="section-plane.html#subsec-models" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Introducing Axiom Systems and Models</span></a></div></li>
+<li><div class="toc-item"><a href="section-plane.html#subsec-planeaxioms" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Neutral Plane Axioms</span></a></div></li>
+<li><div class="toc-item"><a href="section-plane.html#subsec-parallel" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Parallelism</span></a></div></li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="section-pset.html" class="internal"><span class="codenumber">1.3</span> <span class="title">P(rojective) SET</span></a></div></li>
+<li><div class="toc-item"><a href="section-pset.html" class="internal"><span class="codenumber">2.3</span> <span class="title">P(rojective) SET</span></a></div></li>
+<li>
+<div class="toc-item"><a href="section-projective.html" class="internal"><span class="codenumber">2.4</span> <span class="title">The Finite Projective Plane</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="section-projective.html#subsec-projectiveaxioms" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Axioms and Duality</span></a></div></li>
+<li><div class="toc-item"><a href="section-projective.html#subsec-projectivecounting" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Counting points and lines</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-plane"><h2 class="heading hide-type">
-<span class="type">Section</span> <span class="codenumber">1.2</span> <span class="title">Neutral Plane Axioms</span>
+<span class="type">Section</span> <span class="codenumber">2.2</span> <span class="title">Neutral Plane Axioms</span>
 </h2>
 <section class="subsection" id="subsec-models"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.2.1</span> <span class="title">Introducing Axiom Systems and Models</span>
+<span class="type">Subsection</span> <span class="codenumber">2.2.1</span> <span class="title">Introducing Axiom Systems and Models</span>
 </h3>
 <article class="definition definition-like" id="def-geometry"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.2.1</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-22">
+<div class="para logical" id="p-30">
 <div class="para">An <em class="emphasis">axiom system</em> has two components:</div>
 <ol class="decimal"><li id="li-7">
-<div class="para" id="p-23">A set of special words that we officially assume have no meaning. The words are sometimes called undefined terms, primitives or technical terms.</div>
-<div class="para" id="p-24">A set of statements called axioms that we assume to be true concerning the undefined terms.</div>
+<div class="para" id="p-31">A set of special words that we officially assume have no meaning. The words are sometimes called undefined terms, primitives or technical terms.</div>
+<div class="para" id="p-32">A set of statements called axioms that we assume to be true concerning the undefined terms.</div>
 </li></ol>
-</div> <div class="para" id="p-25">A <em class="emphasis">model</em> of an axiom system is a set of meanings for the undefined terms. These meanings are assigned without any regard for whether the axioms become true statements about the undefined terms.</div></article><article class="example example-like" id="example-1"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span>
+</div> <div class="para" id="p-33">A <em class="emphasis">model</em> of an axiom system is a set of meanings for the undefined terms. These meanings are assigned without any regard for whether the axioms become true statements about the undefined terms.</div></article><article class="example example-like" id="example-1"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.2</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-26">
+<div class="para logical" id="p-34">
 <div class="para">Consider the following axiom system, the <em class="emphasis">4 point geometry</em>.  Let <em class="emphasis">point</em>, <em class="emphasis">line</em> and <em class="emphasis">belongs</em> be the undefined terms.  The axioms are:</div>
 <ol class="decimal">
-<li id="li-8"><div class="para" id="p-27">There are 4 points.</div></li>
-<li id="li-9"><div class="para" id="p-28">Given two distinct points, there is exactly one line that they both belong to.</div></li>
-<li id="li-10"><div class="para" id="p-29">Each line has exactly two points belonging to it.</div></li>
+<li id="li-8"><div class="para" id="p-35">There are 4 points.</div></li>
+<li id="li-9"><div class="para" id="p-36">Given two distinct points, there is exactly one line that they both belong to.</div></li>
+<li id="li-10"><div class="para" id="p-37">Each line has exactly two points belonging to it.</div></li>
 </ol>
 <div class="para">Then the following are models of this axiom system.</div>
 </div> <ol class="decimal">
-<li id="li-11"><div class="para logical" id="p-30">
+<li id="li-11"><div class="para logical" id="p-38">
 <div class="para">Points are letters, lines are columns, a point belongs a line if it is on the column:</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -271,124 +282,127 @@ B &amp; C &amp; D &amp; C &amp; D &amp; D \\
 \end{equation*}
 </div>
 </div></li>
-<li id="li-12"><div class="para" id="p-31">Points are dots, segments are lines, point belongs to a line if a segment connects them: <figure class="figure figure-like" id="figure-K4"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/image-K4.svg" role="img" class="contained" alt="A complete graph on 4 vertices."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.3<span class="period">.</span></span><span class="space"> </span>A model for a 4-point geometry</figcaption></figure>
+<li id="li-12"><div class="para" id="p-39">Points are dots, segments are lines, point belongs to a line if a segment connects them: <figure class="figure figure-like" id="figure-K4"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/image-K4.svg" role="img" class="contained" alt="A complete graph on 4 vertices."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.2.3<span class="period">.</span></span><span class="space"> </span>A model for a 4-point geometry</figcaption></figure>
 </div></li>
 </ol></article><article class="problem example-like" id="problem-3"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="period">.</span>
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.4</span><span class="period">.</span>
 </h4>
-<article class="task exercise-like" id="task-17"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="p-32">Come up with your own model for the 4 point geometry.</div></article><article class="task exercise-like" id="task-18"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="p-33">Exaplain why the following is <em class="emphasis">not</em> a model for the 4 point geometry</div></article><article class="task exercise-like" id="task-19"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="p-34">Compare your model to everyone else’s models and the examples in <code class="code-inline tex2jax_ignore">[cross-reference to target(s) "example-4point" missing or not unique]</code>. Are these models <em class="emphasis">actually</em> different?</div></article></article></section><section class="subsection" id="subsec-planeaxioms"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.2.2</span> <span class="title">Neutral Plane Axioms</span>
+<article class="task exercise-like" id="task-23"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="p-40">Come up with your own model for the 4 point geometry.</div></article><article class="task exercise-like" id="task-24"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-41">Exaplain why the following is <em class="emphasis">not</em> a model for the 4 point geometry</div></article><article class="task exercise-like" id="task-25"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="p-42">Compare your model to everyone else’s models and the examples in <code class="code-inline tex2jax_ignore">[cross-reference to target(s) "example-4point" missing or not unique]</code>. Are these models <em class="emphasis">actually</em> different?</div></article></article></section><section class="subsection" id="subsec-planeaxioms"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">2.2.2</span> <span class="title">Neutral Plane Axioms</span>
 </h3>
-<div class="para" id="p-35">We consider the following axiom system.  Let <em class="emphasis">point</em>, <em class="emphasis">line</em> and <em class="emphasis">belongs</em> be the undefined terms.</div>
+<div class="para" id="p-43">We consider the following axiom system.  Let <em class="emphasis">point</em>, <em class="emphasis">line</em> and <em class="emphasis">belongs</em> be the undefined terms.</div>
 <article class="axiom theorem-like" id="axiom-linesize"><h4 class="heading">
-<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="period">.</span>
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">2.2.5</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-36">For each line <span class="process-math">\(L\text{,}\)</span> there are at least two distinct points belonging to  <span class="process-math">\(L\text{.}\)</span>
+<div class="para" id="p-44">For each line <span class="process-math">\(L\text{,}\)</span> there are at least two distinct points belonging to  <span class="process-math">\(L\text{.}\)</span>
 </div></article><article class="axiom theorem-like" id="axiom-notbelong"><h4 class="heading">
-<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="period">.</span>
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">2.2.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-37">For each line <span class="process-math">\(L\text{,}\)</span> then there is at least one point not belonging to <span class="process-math">\(L\text{.}\)</span>
+<div class="para" id="p-45">For each line <span class="process-math">\(L\text{,}\)</span> then there is at least one point not belonging to <span class="process-math">\(L\text{.}\)</span>
 </div></article><article class="axiom theorem-like" id="axiom-existsline"><h4 class="heading">
-<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">1.2.7</span><span class="period">.</span>
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">2.2.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-38">There exists at least one line.</div></article><article class="problem example-like" id="problem-4"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.8</span><span class="period">.</span>
+<div class="para" id="p-46">There exists at least one line.</div></article><article class="problem example-like" id="problem-4"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-39">Would any model for the 4-point geometry also be a model for this axiom system?  Justify your assertion.</div></article><article class="problem example-like" id="problem-5"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.9</span><span class="period">.</span>
+<div class="para" id="p-47">Would any model for the 4-point geometry also be a model for this axiom system?  Justify your assertion.</div></article><article class="problem example-like" id="problem-5"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.9</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-40">What is the minimum number of points possible for a model of this axiom system?  Justify your assertion.</div></article><article class="problem example-like" id="problem-6"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.10</span><span class="period">.</span>
+<div class="para" id="p-48">What is the minimum number of points possible for a model of this axiom system?  Justify your assertion.</div></article><article class="problem example-like" id="problem-6"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.10</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-41">Find a model that satisfies <a href="" class="xref" data-knowl="./knowl/axiom-linesize.html" title="Axiom 1.2.5">Axiom 1.2.5</a>, and <a href="" class="xref" data-knowl="./knowl/axiom-existsline.html" title="Axiom 1.2.7">Axiom 1.2.7</a> but not <a href="" class="xref" data-knowl="./knowl/axiom-notbelong.html" title="Axiom 1.2.6">Axiom 1.2.6</a>.</div></article><article class="problem example-like" id="problem-7"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.11</span><span class="period">.</span>
+<div class="para" id="p-49">Find a model that satisfies <a href="" class="xref" data-knowl="./knowl/axiom-linesize.html" title="Axiom 2.2.5">Axiom 2.2.5</a>, and <a href="" class="xref" data-knowl="./knowl/axiom-existsline.html" title="Axiom 2.2.7">Axiom 2.2.7</a> but not <a href="" class="xref" data-knowl="./knowl/axiom-notbelong.html" title="Axiom 2.2.6">Axiom 2.2.6</a>.</div></article><article class="problem example-like" id="problem-7"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.11</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-42">Find a model that satisfies <a href="" class="xref" data-knowl="./knowl/axiom-linesize.html" title="Axiom 1.2.5">Axiom 1.2.5</a>,   <a href="" class="xref" data-knowl="./knowl/axiom-notbelong.html" title="Axiom 1.2.6">Axiom 1.2.6</a>   and <a href="" class="xref" data-knowl="./knowl/axiom-existsline.html" title="Axiom 1.2.7">Axiom 1.2.7</a> in which at least two points belong to no line.</div></article><article class="problem example-like" id="problem-8"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.12</span><span class="period">.</span>
+<div class="para" id="p-50">Find a model that satisfies <a href="" class="xref" data-knowl="./knowl/axiom-linesize.html" title="Axiom 2.2.5">Axiom 2.2.5</a>,   <a href="" class="xref" data-knowl="./knowl/axiom-notbelong.html" title="Axiom 2.2.6">Axiom 2.2.6</a>   and <a href="" class="xref" data-knowl="./knowl/axiom-existsline.html" title="Axiom 2.2.7">Axiom 2.2.7</a> in which at least two points belong to no line.</div></article><article class="problem example-like" id="problem-8"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.12</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-43">Prove or disprove: Each point belongs to a line.</div></article><div class="para" id="p-44">Since such a “geometry” is fundamentally uninteresting, we add a fourth axiom.</div>
+<div class="para" id="p-51">Prove or disprove: Each point belongs to a line.</div></article><div class="para" id="p-52">Since such a “geometry” is fundamentally uninteresting, we add a fourth axiom.</div>
 <article class="axiom theorem-like" id="axiom-twopointweak"><h4 class="heading">
-<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">1.2.13</span><span class="period">.</span>
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">2.2.13</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-45">For each pair of distinct points,  there is at least one line they both belong to.</div></article><article class="problem example-like" id="problem-9"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.14</span><span class="period">.</span>
+<div class="para" id="p-53">For each pair of distinct points <span class="process-math">\(P, Q\text{,}\)</span>  there is at least one line they both belong to.</div></article><article class="problem example-like" id="problem-9"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.14</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-46">Let cards be points and SETs be lines.  Does the grid you constructed in  <a href="" class="xref" data-knowl="./knowl/activity-buildplane.html" title="Activity 1.1.6">Activity 1.1.6</a> satisfy all four of our axioms?  Justify your assertion.</div></article><article class="problem example-like" id="problem-10"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.15</span><span class="period">.</span>
+<div class="para" id="p-54">Let cards be points and SETs be lines.  Does the grid you constructed in  <a href="" class="xref" data-knowl="./knowl/activity-buildplane.html" title="Activity 2.1.6">Activity 2.1.6</a> satisfy all four of our axioms?  Justify your assertion.</div></article><article class="problem example-like" id="problem-10"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.15</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-47">Find the invalid line of the following “proof”.</div></article><article class="hiddenproof" id="proof-1"><a href="" data-knowl="" class="id-ref proof-knowl original" data-refid="hk-proof-1"><h4 class="heading"><span class="type">Proof<span class="period">.</span></span></h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-proof-1"><article class="hiddenproof"><div class="para" id="p-48">By <a href="" class="xref" data-knowl="./knowl/axiom-existsline.html" title="Axiom 1.2.7">Axiom 1.2.7</a>, there is a line <span class="process-math">\(L\text{,}\)</span> by <a href="" class="xref" data-knowl="./knowl/axiom-linesize.html" title="Axiom 1.2.5">Axiom 1.2.5</a>, <span class="process-math">\(L\)</span> has two points, <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{.}\)</span>  So for each point <span class="process-math">\(A\text{,}\)</span> there is a line containing <span class="process-math">\(A\text{.}\)</span>
+<div class="para" id="p-55">Find three <em class="emphasis">different</em> models of our four axioms (it’s easier if they are finite).</div></article><article class="problem example-like" id="problem-11"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.16</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-56">Find the invalid line of the following “proof”.</div></article><article class="hiddenproof" id="proof-1"><a href="" data-knowl="" class="id-ref proof-knowl original" data-refid="hk-proof-1"><h4 class="heading"><span class="type">Proof<span class="period">.</span></span></h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-proof-1"><article class="hiddenproof"><div class="para" id="p-57">By <a href="" class="xref" data-knowl="./knowl/axiom-existsline.html" title="Axiom 2.2.7">Axiom 2.2.7</a>, there is a line <span class="process-math">\(L\text{,}\)</span> by <a href="" class="xref" data-knowl="./knowl/axiom-linesize.html" title="Axiom 2.2.5">Axiom 2.2.5</a>, <span class="process-math">\(L\)</span> has two points, <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{.}\)</span>  So for each point <span class="process-math">\(A\text{,}\)</span> there is a line containing <span class="process-math">\(A\text{.}\)</span>
 </div></article></div>
-<article class="problem example-like" id="problem-11"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.16</span><span class="period">.</span>
+<article class="problem example-like" id="problem-12"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.17</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-49">Prove that every point belongs to a line.</div></article><article class="problem example-like" id="problem-12"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.17</span><span class="period">.</span>
+<div class="para" id="p-58">Prove that every point belongs to a line.</div></article><article class="problem example-like" id="problem-13"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.18</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-50">Is it possible that some point belongs to only one line? Prove your response.</div></article><article class="problem example-like" id="problem-13"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.18</span><span class="period">.</span>
+<div class="para" id="p-59">Is it possible that some point belongs to only one line? Prove your response.</div></article><article class="problem example-like" id="problem-14"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.19</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-51">Find a model that satisfies our axiom system in which there are two different points <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> such that at least two different lines each contain both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span>
-</div></article><article class="problem example-like" id="problem-14"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.19</span><span class="period">.</span>
+<div class="para" id="p-60">Find a model that satisfies our axiom system in which there are two different points <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> such that at least two different lines each contain both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span>
+</div></article><article class="problem example-like" id="problem-15"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.20</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-52">Find a model that satisfies our axiom system in which there are two different points <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> such that at least two different lines each contain both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span>
-</div></article><div class="para" id="p-53">Since this axiom system still seems flawed, we replace the fourth axiom with a stronger version.</div>
+<div class="para" id="p-61">Find a model that satisfies our axiom system in which there are two different points <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> such that at least two different lines each contain both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span>
+</div></article><div class="para" id="p-62">Since this axiom system still seems flawed, we replace the fourth axiom with a stronger version.</div>
 <article class="axiom theorem-like" id="axiom-twopoint"><h4 class="heading">
-<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">1.2.20</span><span class="period">.</span>
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">2.2.21</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-54">For each pair of distinct points,  there is <em class="emphasis">exactly</em> one line they both belong to.</div></article><article class="definition definition-like" id="definition-3"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.21</span><span class="period">.</span>
+<div class="para" id="p-63">For each pair of distinct points <span class="process-math">\(P, Q\text{,}\)</span>  there is <em class="emphasis">exactly</em> one line they both belong to.</div></article><article class="definition definition-like" id="definition-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.2.22</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-55">We let <span class="process-math">\({AB}\)</span> denote the line containing both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span>
+<div class="para" id="p-64">We let <span class="process-math">\(\overleftrightarrow{AB}\)</span> denote the line containing both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{.}\)</span>
 </div></article><article class="definition definition-like" id="definition-4"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.22</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.2.23</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-56">A collection of points are <em class="emphasis">colinear</em> if there are is a line which all the points in the collection belong to.</div></article><article class="problem example-like" id="problem-15"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.23</span><span class="period">.</span>
+<div class="para" id="p-65">A collection of points are <em class="emphasis">colinear</em> if there are is a line which all the points in the collection belong to.</div></article><article class="problem example-like" id="problem-16"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.24</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-57">What would we mean by the statement that points are non-collinear?</div></article><article class="problem example-like" id="problem-16"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.24</span><span class="period">.</span>
+<div class="para" id="p-66">What would we mean by the statement that points are non-collinear?</div></article><article class="problem example-like" id="problem-17"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.25</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-58">Is it true that given a point that there exist two more points such that the three points are collinear? Prove your answer.</div></article><article class="problem example-like" id="problem-17"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.25</span><span class="period">.</span>
+<div class="para" id="p-67">Is it true that given a point that there exist two more points such that the three points are collinear? Prove your answer.</div></article><article class="problem example-like" id="problem-18"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.26</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-59">Can we say each point is not in some line? Prove your answer.</div></article><article class="problem example-like" id="problem-18"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.26</span><span class="period">.</span>
+<div class="para" id="p-68">Can we say each point is not in some line? Prove your answer.</div></article><article class="problem example-like" id="problem-19"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.27</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-60">Suppose <span class="process-math">\(L\)</span> and <span class="process-math">\(H\)</span> are different lines. What can you say about the number of points that can belong to both <span class="process-math">\(L\)</span> and <span class="process-math">\(H\text{?}\)</span> Prove your answer.</div></article><article class="definition definition-like" id="def-intersect"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.27</span><span class="period">.</span>
+<div class="para" id="p-69">Suppose <span class="process-math">\(L\)</span> and <span class="process-math">\(H\)</span> are different lines. What can you say about the number of points that can belong to both <span class="process-math">\(L\)</span> and <span class="process-math">\(H\text{?}\)</span> Prove your answer.</div></article><article class="definition definition-like" id="def-intersect"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.2.28</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-61">If <span class="process-math">\(L, M\)</span> are lines, and a point <span class="process-math">\(A\)</span> belongs to both lines, we say <span class="process-math">\(L\)</span> and <span class="process-math">\(M\)</span> <em class="emphasis">intersect</em><span class="process-math">\(A\text{.}\)</span>
+<div class="para" id="p-70">If <span class="process-math">\(L, M\)</span> are lines, and a point <span class="process-math">\(A\)</span> belongs to both lines, we say <span class="process-math">\(L\)</span> and <span class="process-math">\(M\)</span> <em class="emphasis">intersect</em><span class="process-math">\(A\text{.}\)</span>
 </div></article></section><section class="subsection" id="subsec-parallel"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.2.3</span> <span class="title">Parallelism</span>
+<span class="type">Subsection</span> <span class="codenumber">2.2.3</span> <span class="title">Parallelism</span>
 </h3>
-<article class="problem example-like" id="problem-19"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.28</span><span class="period">.</span>
+<article class="problem example-like" id="problem-20"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.29</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="introduction-4"><div class="para" id="p-62">Let points be ordered pairs <span class="process-math">\((x,y)\)</span> such that <span class="process-math">\(x, y\)</span> are real numbers.  Let lines by sets of points which satisfy the equality <span class="process-math">\(ax+by=c\)</span> for some <span class="process-math">\(a,b,c\text{.}\)</span>  (This should be familiar).</div></div>
-<article class="task exercise-like" id="task-20"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="p-63">Show that this model satisfies our axioms.</div></article><article class="task exercise-like" id="task-21"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="p-64">Let <span class="process-math">\(L\)</span> be a line and let <span class="process-math">\(A\)</span> be a point which doesn’t belong to <span class="process-math">\(L\text{.}\)</span>  How many lines are there that contain <span class="process-math">\(A\)</span> but don’t intersect <span class="process-math">\(L\text{.}\)</span>
-</div></article></article><article class="problem example-like" id="problem-20"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.29</span><span class="period">.</span>
-</h4>
-<div class="introduction" id="introduction-5">
-<div class="para" id="p-65">Let points be ordered pairs <span class="process-math">\((x,y)\)</span> such that <span class="process-math">\(x, y\)</span> are real numbers <em class="emphasis">and</em> <span class="process-math">\(x^2+y^2 &lt; 1\text{.}\)</span>  Let lines by sets of points which satisfy the equality <span class="process-math">\(ax+by=c\)</span> for some <span class="process-math">\(a,b,c\)</span> <em class="emphasis">and</em> <span class="process-math">\(x^2+y^2 &lt; 1\text{.}\)</span>  (This may not be familiar).</div> <div class="para" id="p-66"><iframe src="https://www.desmos.com/calculator/kxg6gu9n2q" id="interactive-1" width="600" height="300"></iframe></div>
-</div>
-<article class="task exercise-like" id="task-22"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="p-67">Show that this model satisfies our axioms.</div></article><article class="task exercise-like" id="task-23"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="p-68">Let <span class="process-math">\(L\)</span> be a line and let <span class="process-math">\(A\)</span> be a point which doesn’t belong to <span class="process-math">\(L\text{.}\)</span>  How many lines are there that contain <span class="process-math">\(A\)</span> but don’t intersect <span class="process-math">\(L\text{.}\)</span>
+<div class="introduction" id="introduction-6"><div class="para" id="p-71">Let points be ordered pairs <span class="process-math">\((x,y)\)</span> such that <span class="process-math">\(x, y\)</span> are real numbers.  Let lines by sets of points which satisfy the equality <span class="process-math">\(ax+by=c\)</span> for some <span class="process-math">\(a,b,c\text{.}\)</span>  (This should be familiar).</div></div>
+<article class="task exercise-like" id="task-26"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="p-72">Show that this model satisfies our axioms.</div></article><article class="task exercise-like" id="task-27"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-73">Let <span class="process-math">\(L\)</span> be a line and let <span class="process-math">\(A\)</span> be a point which doesn’t belong to <span class="process-math">\(L\text{.}\)</span>  How many lines are there that contain <span class="process-math">\(A\)</span> but don’t intersect <span class="process-math">\(L\text{.}\)</span>
 </div></article></article><article class="problem example-like" id="problem-21"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.30</span><span class="period">.</span>
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.30</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-69">Find a model for our axioms where every pair of lines intersect.</div></article><article class="problem example-like" id="problem-22"><h4 class="heading">
-<span class="type">Problem</span><span class="space"> </span><span class="codenumber">1.2.31</span><span class="period">.</span>
+<div class="introduction" id="introduction-7">
+<div class="para" id="p-74">Let points be ordered pairs <span class="process-math">\((x,y)\)</span> such that <span class="process-math">\(x, y\)</span> are real numbers <em class="emphasis">and</em> <span class="process-math">\(x^2+y^2 &lt; 1\text{.}\)</span>  Let lines by sets of points which satisfy the equality <span class="process-math">\(ax+by=c\)</span> for some <span class="process-math">\(a,b,c\)</span> <em class="emphasis">and</em> <span class="process-math">\(x^2+y^2 &lt; 1\text{.}\)</span>  (This may not be familiar).</div> <div class="para" id="p-75"><iframe src="https://www.desmos.com/calculator/kxg6gu9n2q" id="interactive-1" width="600" height="300"></iframe></div>
+</div>
+<article class="task exercise-like" id="task-28"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="p-76">Show that this model satisfies our axioms.</div></article><article class="task exercise-like" id="task-29"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="p-77">Let <span class="process-math">\(L\)</span> be a line and let <span class="process-math">\(A\)</span> be a point which doesn’t belong to <span class="process-math">\(L\text{.}\)</span>  How many lines are there that contain <span class="process-math">\(A\)</span> but don’t intersect <span class="process-math">\(L\text{.}\)</span>
+</div></article></article><article class="problem example-like" id="problem-fano"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.31</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-70">For any model of our axioms, let <span class="process-math">\(L\)</span> be a line and let <span class="process-math">\(A\)</span> be a point which doesn’t belong to <span class="process-math">\(L\text{.}\)</span> What can we say about the number of lines which contain <span class="process-math">\(A\)</span> but don’t intersect <span class="process-math">\(L\text{.}\)</span>
+<div class="para" id="p-78">Find a model with 7 points for our axioms where every pair of lines intersect.</div></article><article class="problem example-like" id="problem-23"><h4 class="heading">
+<span class="type">Problem</span><span class="space"> </span><span class="codenumber">2.2.32</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-79">For any model of our axioms, let <span class="process-math">\(L\)</span> be a line and let <span class="process-math">\(A\)</span> be a point which doesn’t belong to <span class="process-math">\(L\text{.}\)</span> What can we say about the number of lines which contain <span class="process-math">\(A\)</span> but don’t intersect <span class="process-math">\(L\text{.}\)</span>
 </div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="section-set.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="section-pset.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
