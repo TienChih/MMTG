@@ -109,7 +109,8 @@
         </task>
         <task>
           <p>
-            For each pair of cards on this grid, so they lie on exactly one <m>\mathbb{P}</m><em>line</em>?
+            For each pair of cards on this grid, so they lie on exactly one <m>\mathbb{P}</m><em>line</em>?  \setcard{2}{2}{3}{1}{1}
+
           </p>
         </task>
       </activity>

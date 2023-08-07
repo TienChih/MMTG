@@ -8,6 +8,8 @@
     </macros>
     <latex-image-preamble>
       \usepackage{tikz}
+      \usepackage{setdeck}
+
     </latex-image-preamble>
   </docinfo>
 
