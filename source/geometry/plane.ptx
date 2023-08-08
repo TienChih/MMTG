@@ -321,7 +321,7 @@ points that can belong to both <m>L</m> and <m>H</m>? Prove your answer.
     <subsection xml:id="subsec-parallel">
       <title>Parallelism</title>
 
-      <problem>
+      <problem xml:id="problem-euclid">
         <introduction>
           <p>
             Let points be ordered pairs <m>(x,y)</m> such that <m>x, y</m> are real numbers.  Let lines by sets of points which satisfy the
@@ -348,7 +348,7 @@ points that can belong to both <m>L</m> and <m>H</m>? Prove your answer.
         
       </problem>
 
-      <problem>
+      <problem xml:id="problem-hyperbolic">
         <introduction>
           <p>
             Let points be ordered pairs <m>(x,y)</m> such that <m>x, y</m> are real numbers <em>and</em> <m>x^2+y^2 &lt; 1</m>.  Let lines by sets of points which satisfy the
@@ -381,7 +381,7 @@ points that can belong to both <m>L</m> and <m>H</m>? Prove your answer.
 
       <problem xml:id="problem-fano">
         <p>
-          Find a model with 7 points for our axioms where every pair of lines intersect.
+          Find a model with 7 points for our axioms where every pair of lines intersect.  (Let the lines contain 3 points each)
         </p>
       </problem>
 

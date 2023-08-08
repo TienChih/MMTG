@@ -32,16 +32,30 @@
         </p>
       </problem>
 
-      <problem>
-        <p>
-          Show that the model found in <xref ref="problem-fano"/> satisfies <xref ref="def-projectiveplane"/>.
-        </p>
-      </problem>
+      
 
       <problem>
         <p>
           Show that the grid found in <xref ref="activity-buildplane"/> satisfies <xref ref="def-projectiveplane"/>. 
            What would the points and lines be?
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Does the model found in <xref ref="problem-euclid"/> satisfy <xref ref="def-projectiveplane"/>?  Why or why not?
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Does the model found in <xref ref="problem-hyperbolic"/> satisfy <xref ref="def-projectiveplane"/>?  Why or why not?
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Does the model found in <xref ref="problem-fano"/> satisfy <xref ref="def-projectiveplane"/>?  Why or why not?
         </p>
       </problem>
 
@@ -304,7 +318,7 @@
 
       <problem>
         <p>
-          Show that every line contains <m>n+1</m> points.
+          Show that <em>every</em> line contains <m>n+1</m> points.
         </p>
       </problem>
 
@@ -317,6 +331,24 @@
       <problem>
         <p>
           How many lines does a finite projective plane of order <m>n</m> have?
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          What order is the projective plane found in <xref ref="problem-fano"/>?  Verify that it has the right number of points.
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          What order is the projective plane found in <xref ref="activity-buildplane"/>?  Verify that it has the right number of points.
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Draw a projective plane of order 4.
         </p>
       </problem>
 
