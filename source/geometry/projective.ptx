@@ -336,13 +336,13 @@
 
       <problem>
         <p>
-          What order is the projective plane found in <xref ref="problem-fano"/>?  Verify that it has the right number of points.
+          What order is the projective plane found in <xref ref="problem-fano"/>?  Verify that it has the right number of points and lines.
         </p>
       </problem>
 
       <problem>
         <p>
-          What order is the projective plane found in <xref ref="activity-buildplane"/>?  Verify that it has the right number of points.
+          What order is the projective plane found in <xref ref="activity-buildplane"/>?  Verify that it has the right number of points and lines.
         </p>
       </problem>
 
