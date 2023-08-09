@@ -520,7 +520,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "The Finite Projective Plane",
-  "body": " The Finite Projective Plane   Axioms and Duality   A finite projective plane of order ( ) is a model that satisfies the Axioms , , , and the following additional Axioms:   Every pair of distinct lines intersect at at least one point.    There is at least one line containing exactly points.     If a model satisfies do the theorems proven in hold for it?    Show that the grid found in satisfies . What would the points and lines be?    Does the model found in satisfy ? Why or why not?    Does the model found in satisfy ? Why or why not?    Does the model found in satisfy ? Why or why not?   For the following proofs, some of them are really just rewording of known axioms\/results. Some of them are more involved.   Show that for each point , there are at least two lines which contain .    Show that for each point , there is least one line which does not contain .    Show that there is at least one point .    Given any two lines , they intersect at exactly one point.    Given any two points , there is at least one line containing them both.    There is at least one point contained by exactly lines.      By there is a line that has points. Label these points .      Explain why there must be a point that is not contained by . (What if every point was contained by ? What bad thing would happen?).      Explain why for each , there is a line containing it and .      Can we show that none of the lines we just found can be the same line? (What if ? What bad thing would happen?)      How do we know these are all the lines which contain ? (Let be some line containing . Why does have to be one of the lines we just found?)      Conclude that is (one of) the point(s) which is contained by exactly lines.        Compare and . What do you notice?  Compare and . What do you notice?  Compare and . What do you notice?  Compare and . What do you notice?  Compare and . What do you notice?  Compare and . What do you notice?  What does all this tell you about the relationship between points and lines in finite projective planes?     Counting points and lines   If a finite projective plane has points, how many lines do you suppose it has? Why?    Show that a finite projective plane has at least one collection of 4 lines, no three of which intersect at the same point.    Show that a finite projective plane has at least one collection of 4 points, no three of which line on the same line. (You can show this directly, or what does the discussion in tell us?)    Show that given any two points , there is a line containing neither nor .    Show that given any two lines , there is a point contained in neither nor .    Show that if is any line containing points, and is a point not contained in , then is contained in exactly lines.    Show that if is any point contained in lines, and is a line not containing , then is contains exactly points.    Show that for every point in a finite projective plane, there exactly lines containing that point.      There is a line with points. Why? Call these points .      Let be a point not on , why are there exactly lines containing ? What does the proof of say?      Now suppose instead that were on . There must be some not on . Why?      Show that there is a line that contains neither nor .       is contained in exactly lines, why? Call these lines .      Do these lines intersect ? Why or why not? Can two different lines intersect at the same point? Why or why not? Call the point where intersects  .      Does contain any other points besides the ? Why or why not? How many points does have?      So FINALLY , why is contained in exactly lines?        Show that every line contains points.    How many points does a finite projective plane of order have?    How many lines does a finite projective plane of order have?    What order is the projective plane found in ? Verify that it has the right number of points and lines.    What order is the projective plane found in ? Verify that it has the right number of points and lines.    Draw a projective plane of order 4.    "
+  "body": " The Finite Projective Plane   Axioms and Duality   A finite projective plane of order ( ) is a model that satisfies the Axioms , , , and the following additional Axioms:   Every pair of distinct lines intersect at at least one point.    There is at least one line containing exactly points.     If a model satisfies do the theorems proven in hold for it?    Show that the grid found in satisfies . What would the points and lines be?    Does the model found in satisfy ? Why or why not?    Does the model found in satisfy ? Why or why not?    Does the model found in satisfy ? Why or why not?   For the following proofs, some of them are really just rewording of known axioms\/results. Some of them are more involved.   Show that for each point , there are at least two lines which contain .    Show that for each point , there is least one line which does not contain .    Show that there is at least one point .    Given any two lines , they intersect at exactly one point.    Given any two points , there is at least one line containing them both.    There is at least one point contained by exactly lines.      By there is a line that has points. Label these points .      Explain why there must be a point that is not contained by . (What if every point was contained by ? What bad thing would happen?).      Explain why for each , there is a line containing it and .      Can we show that none of the lines we just found can be the same line? (What if ? What bad thing would happen?)      How do we know these are all the lines which contain ? (Let be some line containing . Why does have to be one of the lines we just found?)      Conclude that is (one of) the point(s) which is contained by exactly lines.        Compare and . What do you notice?  Compare and . What do you notice?  Compare and . What do you notice?  Compare and . What do you notice?  Compare and . What do you notice?  Compare and . What do you notice?  What does all this tell you about the relationship between points and lines in finite projective planes?     Counting points and lines   If a finite projective plane has points, how many lines do you suppose it has? Why?    Show that a finite projective plane has at least one collection of 4 lines, no three of which intersect at the same point.    Show that a finite projective plane has at least one collection of 4 points, no three of which line on the same line. (You can show this directly, or what does the discussion in tell us?)    Given any line containing points, and any point not contained in , is contained in exactly lines. (Can we repurpose parts of the proof of ?)    Given any point contained in lines, and any line not containing , contains exactly points.    Show that given any two points , there is a line containing neither nor .    Show that given any two lines , there is a point contained in neither nor .    Show that if is any line containing points, and is a point not contained in , then is contained in exactly lines.    Show that if is any point contained in lines, and is a line not containing , then is contains exactly points.    Show that for every point in a finite projective plane, there exactly lines containing that point.      There is a line with points. Why? Call these points .      Let be a point not on , why are there exactly lines containing ? See .      Now suppose instead that were on . There must be some not on . Why?      Show that there is a line that contains neither nor .       is contained in exactly lines, why? Call these lines .      Do these lines intersect ? Why or why not? Can two different lines intersect at the same point? Why or why not? Call the point where intersects  .      Does contain any other points besides the ? Why or why not? How many points does have?      So FINALLY , why is contained in exactly lines?        Show that every line contains points.    How many points does a finite projective plane of order have?    How many lines does a finite projective plane of order have?    What order is the projective plane found in ? Verify that it has the right number of points and lines.    What order is the projective plane found in ? Verify that it has the right number of points and lines.    Draw a projective plane of order 4.    "
 },
 {
   "id": "def-projectiveplane",
@@ -667,13 +667,13 @@ var ptx_lunr_docs = [
   "body": " Show that a finite projective plane has at least one collection of 4 points, no three of which line on the same line. (You can show this directly, or what does the discussion in tell us?)  "
 },
 {
-  "id": "problem-39",
+  "id": "problem-pointcontain",
   "level": "2",
-  "url": "section-projective.html#problem-39",
+  "url": "section-projective.html#problem-pointcontain",
   "type": "Problem",
   "number": "2.4.19",
   "title": "",
-  "body": " Show that given any two points , there is a line containing neither nor .  "
+  "body": " Given any line containing points, and any point not contained in , is contained in exactly lines. (Can we repurpose parts of the proof of ?)  "
 },
 {
   "id": "problem-40",
@@ -682,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.4.20",
   "title": "",
-  "body": " Show that given any two lines , there is a point contained in neither nor .  "
+  "body": " Given any point contained in lines, and any line not containing , contains exactly points.  "
 },
 {
   "id": "problem-41",
@@ -691,7 +691,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.4.21",
   "title": "",
-  "body": " Show that if is any line containing points, and is a point not contained in , then is contained in exactly lines.  "
+  "body": " Show that given any two points , there is a line containing neither nor .  "
 },
 {
   "id": "problem-42",
@@ -700,7 +700,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.4.22",
   "title": "",
-  "body": " Show that if is any point contained in lines, and is a line not containing , then is contains exactly points.  "
+  "body": " Show that given any two lines , there is a point contained in neither nor .  "
 },
 {
   "id": "problem-43",
@@ -709,7 +709,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.4.23",
   "title": "",
-  "body": " Show that for every point in a finite projective plane, there exactly lines containing that point.      There is a line with points. Why? Call these points .      Let be a point not on , why are there exactly lines containing ? What does the proof of say?      Now suppose instead that were on . There must be some not on . Why?      Show that there is a line that contains neither nor .       is contained in exactly lines, why? Call these lines .      Do these lines intersect ? Why or why not? Can two different lines intersect at the same point? Why or why not? Call the point where intersects  .      Does contain any other points besides the ? Why or why not? How many points does have?      So FINALLY , why is contained in exactly lines?      "
+  "body": " Show that if is any line containing points, and is a point not contained in , then is contained in exactly lines.  "
 },
 {
   "id": "problem-44",
@@ -718,7 +718,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.4.24",
   "title": "",
-  "body": " Show that every line contains points.  "
+  "body": " Show that if is any point contained in lines, and is a line not containing , then is contains exactly points.  "
 },
 {
   "id": "problem-45",
@@ -727,7 +727,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.4.25",
   "title": "",
-  "body": " How many points does a finite projective plane of order have?  "
+  "body": " Show that for every point in a finite projective plane, there exactly lines containing that point.      There is a line with points. Why? Call these points .      Let be a point not on , why are there exactly lines containing ? See .      Now suppose instead that were on . There must be some not on . Why?      Show that there is a line that contains neither nor .       is contained in exactly lines, why? Call these lines .      Do these lines intersect ? Why or why not? Can two different lines intersect at the same point? Why or why not? Call the point where intersects  .      Does contain any other points besides the ? Why or why not? How many points does have?      So FINALLY , why is contained in exactly lines?      "
 },
 {
   "id": "problem-46",
@@ -736,7 +736,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.4.26",
   "title": "",
-  "body": " How many lines does a finite projective plane of order have?  "
+  "body": " Show that every line contains points.  "
 },
 {
   "id": "problem-47",
@@ -745,7 +745,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.4.27",
   "title": "",
-  "body": " What order is the projective plane found in ? Verify that it has the right number of points and lines.  "
+  "body": " How many points does a finite projective plane of order have?  "
 },
 {
   "id": "problem-48",
@@ -754,7 +754,7 @@ var ptx_lunr_docs = [
   "type": "Problem",
   "number": "2.4.28",
   "title": "",
-  "body": " What order is the projective plane found in ? Verify that it has the right number of points and lines.  "
+  "body": " How many lines does a finite projective plane of order have?  "
 },
 {
   "id": "problem-49",
@@ -762,6 +762,24 @@ var ptx_lunr_docs = [
   "url": "section-projective.html#problem-49",
   "type": "Problem",
   "number": "2.4.29",
+  "title": "",
+  "body": " What order is the projective plane found in ? Verify that it has the right number of points and lines.  "
+},
+{
+  "id": "problem-50",
+  "level": "2",
+  "url": "section-projective.html#problem-50",
+  "type": "Problem",
+  "number": "2.4.30",
+  "title": "",
+  "body": " What order is the projective plane found in ? Verify that it has the right number of points and lines.  "
+},
+{
+  "id": "problem-51",
+  "level": "2",
+  "url": "section-projective.html#problem-51",
+  "type": "Problem",
+  "number": "2.4.31",
   "title": "",
   "body": " Draw a projective plane of order 4.  "
 },
