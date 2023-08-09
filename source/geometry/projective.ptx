@@ -93,6 +93,8 @@
         </p>
       </problem>
 
+      
+
       <problem xml:id="dual-psize">
         <p>
           There is at least one point <m>P</m> contained by exactly <m>n+1</m> lines.
@@ -195,6 +197,8 @@
     <subsection xml:id="subsec-projectivecounting">
       <title>Counting points and lines</title>
 
+      
+
       <problem>
         <p>
           If a finite projective plane has <m>k</m> points, how many lines do you suppose it has?  Why?  
@@ -211,6 +215,20 @@
         <p>
           Show that a finite projective plane has at least one collection of 4 points, no three of which line on the same line. 
            (You can show this directly, or what does the discussion in <xref ref="problem-duality"/> tell us?)
+        </p>
+      </problem>
+
+      <problem xml:id="problem-pointcontain">
+        <p>
+          Given <em>any</em> line <m>L</m> containing <m>x</m> points, and <em>any</em> point <m>A</m>  not
+          contained in <m>L</m>, <m>A</m> is contained in exactly <m>x</m> lines.  (Can we repurpose parts of the proof of <xref ref="dual-psize"/>?)
+        </p>
+      </problem>
+      
+      <problem >
+        <p>
+          Given <em>any</em> point <m>P</m> contained in <m>x</m> lines, and <em>any</em> line <m>M</m> not
+          containing  <m>P</m>, <m>M</m> contains exactly <m>x</m> points.
         </p>
       </problem>
 
@@ -240,6 +258,8 @@
         </p>
       </problem>
 
+
+
       <problem>
         <p>
           Show that for <em>every</em> point in a finite projective plane, there exactly <m>n+1</m> lines containing that point.
@@ -257,7 +277,7 @@
               <hint>
                 <p>
                   Let <m>P</m> be a point not on <m>L</m>, why are there exactly <m>n+1</m> lines containing <m>P</m>?  
-                  What does the proof of <xref ref="dual-psize"/> say?
+                  See <xref ref="problem-pointcontain"/>.
                 </p>
               </hint>
             </li>
