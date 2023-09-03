@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Neutral Plane Axioms",
-  "body": " Neutral Plane Axioms   Introducing Axiom Systems and Models    An axiom system has two components:   A set of special words that we officially assume have no meaning. The words are sometimes called undefined terms, primitives or technical terms.  A set of statements called axioms that we assume to be true concerning the undefined terms.       A model of an axiom system is a set of meanings for the undefined terms. These meanings are assigned without any regard for whether the axioms become true statements about the undefined terms.     Consider the following axiom system, the 4 point geometry . Let point , line and belongs be the undefined terms. The axioms are:   There are 4 points.    Given two distinct points, there is exactly one line that they both belong to.    Each line has exactly two points belonging to it.   Then the following are models of this axiom system.    Points are letters, lines are columns, a point belongs a line if it is on the column:     Points are dots, segments are lines, point belongs to a line if a segment connects them:  A model for a 4-point geometry   A complete graph on 4 vertices.           Come up with your own model for the 4 point geometry.    Exaplain why the following is not a model for the 4 point geometry    Compare your model to everyone else's models and the examples in . Are these models actually different?      Neutral Plane Axioms  We consider the following axiom system. Let point , line and belongs be the undefined terms.    For each line , there are at least two distinct points belonging to .      For each line , then there is at least one point not belonging to .      There exists at least one line.     Would any model for the 4-point geometry also be a model for this axiom system? Justify your assertion.    What is the minimum number of points possible for a model of this axiom system? Justify your assertion.    Find a model that satisfies , and but not .    Find a model that satisfies , and in which at least two points belong to no line.    Prove or disprove: Each point belongs to a line.   Since such a geometry is fundamentally uninteresting, we add a fourth axiom.    For each pair of distinct points , there is at least one line they both belong to.     Let cards be points and SETs be lines. Does the grid you constructed in satisfy all four of our axioms? Justify your assertion.    Find three different models of our four axioms (it's easier if they are finite).     Find the invalid line of the following proof .     By , there is a line , by , has two points, , . So for each point , there is a line containing .    Prove that every point belongs to a line.    Is it possible that some point belongs to only one line? Prove your response.    Find a model that satisfies our axiom system in which there are two different points and such that at least two different lines each contain both and .    Find a model that satisfies our axiom system in which there are two different points and such that at least two different lines each contain both and .   Since this axiom system still seems flawed, we replace the fourth axiom with a stronger version.    For each pair of distinct points , there is exactly one line they both belong to.     We let denote the line containing both and .    A collection of points are colinear if there are is a line which all the points in the collection belong to.    What would we mean by the statement that points are non-collinear?    Is it true that given a point that there exist two more points such that the three points are collinear? Prove your answer.    Can we say each point is not in some line? Prove your answer.    Suppose and are different lines. What can you say about the number of points that can belong to both and ? Prove your answer.     If are lines, and a point belongs to both lines, we say and  intersect .      Parallelism    Let points be ordered pairs such that are real numbers. Let lines by sets of points which satisfy the equality for some . (This should be familiar).    Show that this model satisfies our axioms.    Let be a line and let be a point which doesn't belong to . How many lines are there that contain but don't intersect .      Let points be ordered pairs such that are real numbers and  . Let lines by sets of points which satisfy the equality for some  and  . (This may not be familiar).       Show that this model satisfies our axioms.    Let be a line and let be a point which doesn't belong to . How many lines are there that contain but don't intersect .     Find a model with 7 points for our axioms where every pair of lines intersect. (Let the lines contain 3 points each)    For any model of our axioms, let be a line and let be a point which doesn't belong to . What can we say about the number of lines which contain but don't intersect .    "
+  "body": " Neutral Plane Axioms   Introducing Axiom Systems and Models    An axiom system has two components:   A set of special words that we officially assume have no meaning. The words are sometimes called undefined terms, primitives or technical terms.  A set of statements called axioms that we assume to be true concerning the undefined terms.       A model of an axiom system is a set of meanings for the undefined terms. These meanings are assigned without any regard for whether the axioms become true statements about the undefined terms.     Consider the following axiom system, the 4 point geometry . Let point , line and belongs be the undefined terms. The axioms are:   There are 4 points.    Given two distinct points, there is exactly one line that they both belong to.    Each line has exactly two points belonging to it.   Then the following are models of this axiom system.    Points are letters, lines are columns, a point belongs a line if it is on the column:     Points are dots, segments are lines, point belongs to a line if a segment connects them:  A model for a 4-point geometry   A complete graph on 4 vertices.           Come up with your own model for the 4 point geometry.    Exaplain why the following is not a model for the 4 point geometry    Compare your model to everyone else's models and the examples in . Are these models actually different?      Neutral Plane Axioms  We consider the following axiom system. Let point , line and belongs be the undefined terms.    For each line , there are at least two distinct points belonging to .      For each line , then there is at least one point not belonging to .      There exists at least one line.     Would any model for the 4-point geometry also be a model for this axiom system? Justify your assertion.    What is the minimum number of points possible for a model of this axiom system? Justify your assertion.    Find a model that satisfies , and but not .    Find a model that satisfies , and in which at least two points belong to no line.    Prove or disprove: Each point belongs to a line.   Since such a geometry is fundamentally uninteresting, we add a fourth axiom.    For each pair of distinct points , there is at least one line they both belong to.     Let cards be points and SETs be lines. Does the grid you constructed in satisfy all four of our axioms? Justify your assertion.    Find three different models of our four axioms (it's easier if they are finite).     Find the invalid line of the following proof .     By , there is a line , by , has two points, , . So for each point , there is a line containing .    Prove that every point belongs to a line.    Is it possible that some point belongs to only one line? Prove your response.    Find a model that satisfies our axiom system in which there are two different points and such that at least two different lines each contain both and .    Find a model that satisfies our axiom system in which there are two different points and such that at least two different lines each contain both and .   Since this axiom system still seems flawed, we replace the fourth axiom with a stronger version.    For each pair of distinct points , there is exactly one line they both belong to.     We let denote the line containing both and .    A collection of points are colinear if there are is a line which all the points in the collection belong to.    What would we mean by the statement that points are non-collinear?    Is it true that given a point that there exist two more points such that the three points are collinear? Prove your answer.    Can we say each point is not in some line? Prove your answer.    Suppose and are different lines. What can you say about the number of points that can belong to both and ? Prove your answer.     If are lines, and a point belongs to both lines, we say and  intersect .      Parallelism    Let points be ordered pairs such that are real numbers. Let lines by sets of points which satisfy the equality for some . (This should be familiar).    Show that this model satisfies our axioms.    Let be a line and let be a point which doesn't belong to . How many lines are there that contain but don't intersect .      Let points be ordered pairs such that are real numbers and  . Let lines by sets of points which satisfy the equality for some  and  . (This may not be familiar).       Show that this model satisfies our axioms.    Let be a line and let be a point which doesn't belong to . How many lines are there that contain but don't intersect .     Find a model with 7 points for our axioms where every pair of lines intersect. (Let the lines contain 3 points each)    For any model of our axioms, let be a line and let be a point which doesn't belong to . What can we say about the number of lines which contain but don't intersect .      Define a plane. (The definition should rule in known examples, and rule out non-examples like 3d things.)    State and prove a theorem about planes.    "
 },
 {
   "id": "def-geometry",
@@ -433,6 +433,24 @@ var ptx_lunr_docs = [
   "body": " For any model of our axioms, let be a line and let be a point which doesn't belong to . What can we say about the number of lines which contain but don't intersect .  "
 },
 {
+  "id": "problem-24",
+  "level": "2",
+  "url": "section-plane.html#problem-24",
+  "type": "Problem",
+  "number": "2.2.33",
+  "title": "",
+  "body": " Define a plane. (The definition should rule in known examples, and rule out non-examples like 3d things.)  "
+},
+{
+  "id": "problem-25",
+  "level": "2",
+  "url": "section-plane.html#problem-25",
+  "type": "Problem",
+  "number": "2.2.34",
+  "title": "",
+  "body": " State and prove a theorem about planes.  "
+},
+{
   "id": "section-pset",
   "level": "1",
   "url": "section-pset.html",
@@ -532,45 +550,45 @@ var ptx_lunr_docs = [
   "body": " A finite projective plane of order ( ) is a model that satisfies the Axioms , , , and the following additional Axioms:   Every pair of distinct lines intersect at at least one point.    There is at least one line containing exactly points.   "
 },
 {
-  "id": "problem-24",
+  "id": "problem-26",
   "level": "2",
-  "url": "section-projective.html#problem-24",
+  "url": "section-projective.html#problem-26",
   "type": "Problem",
   "number": "2.4.4",
   "title": "",
   "body": " If a model satisfies do the theorems proven in hold for it?  "
 },
 {
-  "id": "problem-25",
+  "id": "problem-27",
   "level": "2",
-  "url": "section-projective.html#problem-25",
+  "url": "section-projective.html#problem-27",
   "type": "Problem",
   "number": "2.4.5",
   "title": "",
   "body": " Show that the grid found in satisfies . What would the points and lines be?  "
 },
 {
-  "id": "problem-26",
+  "id": "problem-28",
   "level": "2",
-  "url": "section-projective.html#problem-26",
+  "url": "section-projective.html#problem-28",
   "type": "Problem",
   "number": "2.4.6",
   "title": "",
   "body": " Does the model found in satisfy ? Why or why not?  "
 },
 {
-  "id": "problem-27",
+  "id": "problem-29",
   "level": "2",
-  "url": "section-projective.html#problem-27",
+  "url": "section-projective.html#problem-29",
   "type": "Problem",
   "number": "2.4.7",
   "title": "",
   "body": " Does the model found in satisfy ? Why or why not?  "
 },
 {
-  "id": "problem-28",
+  "id": "problem-30",
   "level": "2",
-  "url": "section-projective.html#problem-28",
+  "url": "section-projective.html#problem-30",
   "type": "Problem",
   "number": "2.4.8",
   "title": "",
@@ -640,27 +658,27 @@ var ptx_lunr_docs = [
   "body": " Compare and . What do you notice?  Compare and . What do you notice?  Compare and . What do you notice?  Compare and . What do you notice?  Compare and . What do you notice?  Compare and . What do you notice?  What does all this tell you about the relationship between points and lines in finite projective planes?  "
 },
 {
-  "id": "problem-36",
+  "id": "problem-38",
   "level": "2",
-  "url": "section-projective.html#problem-36",
+  "url": "section-projective.html#problem-38",
   "type": "Problem",
   "number": "2.4.16",
   "title": "",
   "body": " If a finite projective plane has points, how many lines do you suppose it has? Why?  "
 },
 {
-  "id": "problem-37",
+  "id": "problem-39",
   "level": "2",
-  "url": "section-projective.html#problem-37",
+  "url": "section-projective.html#problem-39",
   "type": "Problem",
   "number": "2.4.17",
   "title": "",
   "body": " Show that a finite projective plane has at least one collection of 4 lines, no three of which intersect at the same point.  "
 },
 {
-  "id": "problem-38",
+  "id": "problem-40",
   "level": "2",
-  "url": "section-projective.html#problem-38",
+  "url": "section-projective.html#problem-40",
   "type": "Problem",
   "number": "2.4.18",
   "title": "",
@@ -676,112 +694,292 @@ var ptx_lunr_docs = [
   "body": " Given any line containing points, and any point not contained in , is contained in exactly lines. (Can we repurpose parts of the proof of ?)  "
 },
 {
-  "id": "problem-40",
+  "id": "problem-42",
   "level": "2",
-  "url": "section-projective.html#problem-40",
+  "url": "section-projective.html#problem-42",
   "type": "Problem",
   "number": "2.4.20",
   "title": "",
   "body": " Given any point contained in lines, and any line not containing , contains exactly points.  "
 },
 {
-  "id": "problem-41",
+  "id": "problem-43",
   "level": "2",
-  "url": "section-projective.html#problem-41",
+  "url": "section-projective.html#problem-43",
   "type": "Problem",
   "number": "2.4.21",
   "title": "",
   "body": " Show that given any two points , there is a line containing neither nor .  "
 },
 {
-  "id": "problem-42",
+  "id": "problem-44",
   "level": "2",
-  "url": "section-projective.html#problem-42",
+  "url": "section-projective.html#problem-44",
   "type": "Problem",
   "number": "2.4.22",
   "title": "",
   "body": " Show that given any two lines , there is a point contained in neither nor .  "
 },
 {
-  "id": "problem-43",
+  "id": "problem-45",
   "level": "2",
-  "url": "section-projective.html#problem-43",
+  "url": "section-projective.html#problem-45",
   "type": "Problem",
   "number": "2.4.23",
   "title": "",
   "body": " Show that if is any line containing points, and is a point not contained in , then is contained in exactly lines.  "
 },
 {
-  "id": "problem-44",
+  "id": "problem-46",
   "level": "2",
-  "url": "section-projective.html#problem-44",
+  "url": "section-projective.html#problem-46",
   "type": "Problem",
   "number": "2.4.24",
   "title": "",
   "body": " Show that if is any point contained in lines, and is a line not containing , then is contains exactly points.  "
 },
 {
-  "id": "problem-45",
+  "id": "problem-47",
   "level": "2",
-  "url": "section-projective.html#problem-45",
+  "url": "section-projective.html#problem-47",
   "type": "Problem",
   "number": "2.4.25",
   "title": "",
   "body": " Show that for every point in a finite projective plane, there exactly lines containing that point.      There is a line with points. Why? Call these points .      Let be a point not on , why are there exactly lines containing ? See .      Now suppose instead that were on . There must be some not on . Why?      Show that there is a line that contains neither nor .       is contained in exactly lines, why? Call these lines .      Do these lines intersect ? Why or why not? Can two different lines intersect at the same point? Why or why not? Call the point where intersects  .      Does contain any other points besides the ? Why or why not? How many points does have?      So FINALLY , why is contained in exactly lines?      "
 },
 {
-  "id": "problem-46",
+  "id": "problem-48",
   "level": "2",
-  "url": "section-projective.html#problem-46",
+  "url": "section-projective.html#problem-48",
   "type": "Problem",
   "number": "2.4.26",
   "title": "",
   "body": " Show that every line contains points.  "
 },
 {
-  "id": "problem-47",
+  "id": "problem-49",
   "level": "2",
-  "url": "section-projective.html#problem-47",
+  "url": "section-projective.html#problem-49",
   "type": "Problem",
   "number": "2.4.27",
   "title": "",
   "body": " How many points does a finite projective plane of order have?  "
 },
 {
-  "id": "problem-48",
+  "id": "problem-50",
   "level": "2",
-  "url": "section-projective.html#problem-48",
+  "url": "section-projective.html#problem-50",
   "type": "Problem",
   "number": "2.4.28",
   "title": "",
   "body": " How many lines does a finite projective plane of order have?  "
 },
 {
-  "id": "problem-49",
+  "id": "problem-51",
   "level": "2",
-  "url": "section-projective.html#problem-49",
+  "url": "section-projective.html#problem-51",
   "type": "Problem",
   "number": "2.4.29",
   "title": "",
   "body": " What order is the projective plane found in ? Verify that it has the right number of points and lines.  "
 },
 {
-  "id": "problem-50",
+  "id": "problem-52",
   "level": "2",
-  "url": "section-projective.html#problem-50",
+  "url": "section-projective.html#problem-52",
   "type": "Problem",
   "number": "2.4.30",
   "title": "",
   "body": " What order is the projective plane found in ? Verify that it has the right number of points and lines.  "
 },
 {
-  "id": "problem-51",
+  "id": "problem-53",
   "level": "2",
-  "url": "section-projective.html#problem-51",
+  "url": "section-projective.html#problem-53",
   "type": "Problem",
   "number": "2.4.31",
   "title": "",
   "body": " Draw a projective plane of order 4.  "
+},
+{
+  "id": "section-affine",
+  "level": "1",
+  "url": "section-affine.html",
+  "type": "Section",
+  "number": "2.5",
+  "title": "The Finite Affine Plane",
+  "body": " The Finite Affine Plane   Axioms (and Duality?)   A finite affine plane of order ( ) is a model that satisfies the Axioms , , , and the following additional Axioms:   Given a line and a point , there is a unique line containing passing through .    There is at least one line containing exactly points.     If a model satisfies do the theorems proven in hold for it?    Does the grid found in satisfy . If so, what would the points and lines be?    Does the model found in satisfy ? Why or why not?    Does the model found in satisfy ? Why or why not?    Does the model found in satisfy ? Why or why not?    Find the smallest model for , show that it satisfies these axioms, then show that it is the smallest.    Show that affine planes do not satisfy the duality projective planes do.     Counting points and lines   Show that for every point in a finite affine plane, there exactly lines containing that point.    Show that every line contains points.    Show that for every line , there are exactly lines which do not intersect it.    Show that a finite affine plane of order has points, and lines.    "
+},
+{
+  "id": "def-affineplane",
+  "level": "2",
+  "url": "section-affine.html#def-affineplane",
+  "type": "Definition",
+  "number": "2.5.1",
+  "title": "",
+  "body": " A finite affine plane of order ( ) is a model that satisfies the Axioms , , , and the following additional Axioms:   Given a line and a point , there is a unique line containing passing through .    There is at least one line containing exactly points.   "
+},
+{
+  "id": "problem-54",
+  "level": "2",
+  "url": "section-affine.html#problem-54",
+  "type": "Problem",
+  "number": "2.5.4",
+  "title": "",
+  "body": " If a model satisfies do the theorems proven in hold for it?  "
+},
+{
+  "id": "problem-55",
+  "level": "2",
+  "url": "section-affine.html#problem-55",
+  "type": "Problem",
+  "number": "2.5.5",
+  "title": "",
+  "body": " Does the grid found in satisfy . If so, what would the points and lines be?  "
+},
+{
+  "id": "problem-56",
+  "level": "2",
+  "url": "section-affine.html#problem-56",
+  "type": "Problem",
+  "number": "2.5.6",
+  "title": "",
+  "body": " Does the model found in satisfy ? Why or why not?  "
+},
+{
+  "id": "problem-57",
+  "level": "2",
+  "url": "section-affine.html#problem-57",
+  "type": "Problem",
+  "number": "2.5.7",
+  "title": "",
+  "body": " Does the model found in satisfy ? Why or why not?  "
+},
+{
+  "id": "problem-58",
+  "level": "2",
+  "url": "section-affine.html#problem-58",
+  "type": "Problem",
+  "number": "2.5.8",
+  "title": "",
+  "body": " Does the model found in satisfy ? Why or why not?  "
+},
+{
+  "id": "problem-59",
+  "level": "2",
+  "url": "section-affine.html#problem-59",
+  "type": "Problem",
+  "number": "2.5.9",
+  "title": "",
+  "body": " Find the smallest model for , show that it satisfies these axioms, then show that it is the smallest.  "
+},
+{
+  "id": "problem-60",
+  "level": "2",
+  "url": "section-affine.html#problem-60",
+  "type": "Problem",
+  "number": "2.5.10",
+  "title": "",
+  "body": " Show that affine planes do not satisfy the duality projective planes do.  "
+},
+{
+  "id": "problem-61",
+  "level": "2",
+  "url": "section-affine.html#problem-61",
+  "type": "Problem",
+  "number": "2.5.11",
+  "title": "",
+  "body": " Show that for every point in a finite affine plane, there exactly lines containing that point.  "
+},
+{
+  "id": "problem-62",
+  "level": "2",
+  "url": "section-affine.html#problem-62",
+  "type": "Problem",
+  "number": "2.5.12",
+  "title": "",
+  "body": " Show that every line contains points.  "
+},
+{
+  "id": "problem-63",
+  "level": "2",
+  "url": "section-affine.html#problem-63",
+  "type": "Problem",
+  "number": "2.5.13",
+  "title": "",
+  "body": " Show that for every line , there are exactly lines which do not intersect it.  "
+},
+{
+  "id": "problem-64",
+  "level": "2",
+  "url": "section-affine.html#problem-64",
+  "type": "Problem",
+  "number": "2.5.14",
+  "title": "",
+  "body": " Show that a finite affine plane of order has points, and lines.  "
+},
+{
+  "id": "section-affine",
+  "level": "1",
+  "url": "section-affine.html",
+  "type": "Section",
+  "number": "2.6",
+  "title": "The Projective Planes from Affine Spaces",
+  "body": " The Projective Planes from Affine Spaces   Back to the 3d    We now return to our affine three space.   Reconstruct the 3d space with SET cards with the caveat that the middle most card must be Two Green Striped Diamonds .  Take each of the SETs in the 3d space that contain Two Green Striped Diamonds and find the corresponding cards. How many of them are there.  Try to form these in the same configuration as in , how close can you get?  What connection can you see between the lines of the projective plane you are building and the 3d affine SET space?     Let's go the other direction, reproduce the exact plane you originally built in .   Pull out all the SET cards that appear on the SET cards and add to them Two Green Striped Diamonds .  Try to use these cards to fill out a 3d-affine SET space.    Based on what you have observed, carefully capture what you think is happening with a conjecture.    Prove the conjecture in .    If we replace Two Green Striped Diamonds with some other card, what, if anything, what if anything stays the same? Try to prove any claims you make.    If we replace the 3d affine SET space with the standard , and replace Two Green Striped Diamonds with the origin , how would your conjecture you found in be adjusted?  Do you think this new version of the conjecture should be true? Explain your thinking. Can you prove any claims?    "
+},
+{
+  "id": "activity-planestolines",
+  "level": "2",
+  "url": "section-affine.html#activity-planestolines",
+  "type": "Activity",
+  "number": "2.6.1",
+  "title": "",
+  "body": "  We now return to our affine three space.   Reconstruct the 3d space with SET cards with the caveat that the middle most card must be Two Green Striped Diamonds .  Take each of the SETs in the 3d space that contain Two Green Striped Diamonds and find the corresponding cards. How many of them are there.  Try to form these in the same configuration as in , how close can you get?  What connection can you see between the lines of the projective plane you are building and the 3d affine SET space?  "
+},
+{
+  "id": "activity-linestoplanes",
+  "level": "2",
+  "url": "section-affine.html#activity-linestoplanes",
+  "type": "Activity",
+  "number": "2.6.2",
+  "title": "",
+  "body": "  Let's go the other direction, reproduce the exact plane you originally built in .   Pull out all the SET cards that appear on the SET cards and add to them Two Green Striped Diamonds .  Try to use these cards to fill out a 3d-affine SET space.  "
+},
+{
+  "id": "problem-conjectureprojectivizing",
+  "level": "2",
+  "url": "section-affine.html#problem-conjectureprojectivizing",
+  "type": "Problem",
+  "number": "2.6.1",
+  "title": "",
+  "body": " Based on what you have observed, carefully capture what you think is happening with a conjecture.  "
+},
+{
+  "id": "problem-proofprojectivizing",
+  "level": "2",
+  "url": "section-affine.html#problem-proofprojectivizing",
+  "type": "Problem",
+  "number": "2.6.2",
+  "title": "",
+  "body": " Prove the conjecture in .  "
+},
+{
+  "id": "problem-67",
+  "level": "2",
+  "url": "section-affine.html#problem-67",
+  "type": "Problem",
+  "number": "2.6.3",
+  "title": "",
+  "body": " If we replace Two Green Striped Diamonds with some other card, what, if anything, what if anything stays the same? Try to prove any claims you make.  "
+},
+{
+  "id": "problem-68",
+  "level": "2",
+  "url": "section-affine.html#problem-68",
+  "type": "Problem",
+  "number": "2.6.4",
+  "title": "",
+  "body": " If we replace the 3d affine SET space with the standard , and replace Two Green Striped Diamonds with the origin , how would your conjecture you found in be adjusted?  Do you think this new version of the conjecture should be true? Explain your thinking. Can you prove any claims?  "
 },
 {
   "id": "colophon-2",
