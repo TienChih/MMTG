@@ -1,0 +1,97 @@
+<section xml:id="section-affine">
+    <title>The Projective Planes from Affine Spaces</title>
+    <subsection xml:id="subsec-affinespace">
+      <title>Back to the 3d</title>
+      
+
+      <activity xml:id="activity-planestolines">
+        <introduction>
+            <p>
+                We now return to our affine three space.
+            </p>
+        </introduction>
+        <task>
+            <p>
+                Reconstruct the 3d space with SET cards with the caveat that the middle most card must be <em>Two Green Striped Diamonds</em>.
+            </p>
+        </task>
+        <task>
+            <p>
+                Take each of the SETs in the 3d space that contain <em>Two Green Striped Diamonds</em> and find the corresponding <m>\mathbb{P}</m> cards.  How many of them are there.
+            </p>
+        </task>
+        <task>
+            <p>
+                Try to form these in the same configuration as in <xref ref="activity-buildplane"/>, how close can you get?
+            </p>
+        </task>
+
+        <task>
+            <p>
+                What connection can you see between the lines of the projective plane you are building and the 3d affine SET space?
+            </p>
+        </task>
+
+        
+      </activity>
+
+      <activity xml:id="activity-linestoplanes">
+        <introduction>
+            <p>
+                Let's go the other direction, reproduce the exact plane you originally built in <xref ref="activity-buildplane"/>.
+            </p>
+        </introduction>
+        <task>
+            <p>
+                Pull out all the SET cards that appear on the <m>\mathbb{P}</m>SET cards and add to them <em>Two Green Striped Diamonds</em>.
+            </p>
+        </task>
+        <task>
+            <p>
+                Try to use these cards to fill out a 3d-affine SET space.
+            </p>
+        </task>
+      </activity>
+
+      <problem xml:id="problem-conjectureprojectivizing">
+        <p>
+            Based on what you have observed, carefully capture what you think is happening with a conjecture.
+        </p>
+      </problem>
+
+      <problem xml:id="problem-proofprojectivizing">
+        <p>
+            Prove the conjecture in <xref ref="problem-conjectureprojectivizing"/>.
+        </p>
+      </problem>
+
+      <problem >
+        <p>
+            If we replace <em>Two Green Striped Diamonds</em> with some other card, what, if anything, what if anything stays the same?  Try to prove any claims you make.
+        </p>
+      </problem>
+
+      <problem >
+        <p>
+            If we replace the 3d affine SET space with the standard <m>\mathbb{R}^3</m>,
+             and replace <em>Two Green Striped Diamonds</em> with the origin <m>(0,0,0)</m>, 
+             how would your conjecture you found in <xref ref="problem-conjectureprojectivizing"/> be adjusted?
+        </p>
+        <p>
+            Do you think this new version of the conjecture should be true?  Explain your thinking.  Can you prove any claims?
+        </p>
+      </problem>
+
+      
+
+     
+
+      
+      
+    </subsection>
+
+       
+      
+
+    
+  </section>

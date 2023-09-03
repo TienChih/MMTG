@@ -394,6 +394,22 @@ points that can belong to both <m>L</m> and <m>H</m>? Prove your answer.
       
     </subsection> 
 
+    <subsection xml:id="subsec-plane">
+
+      <problem>
+        <p>
+          Define a plane.  (The definition should rule in known examples, and rule out non-examples like 3d things.)
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          State and prove a theorem about planes.
+        </p>
+      </problem>
+
+    </subsection>
+
        
       
 

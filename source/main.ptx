@@ -66,6 +66,10 @@
 
       <xi:include  href="geometry/projective.ptx"/>
 
+      <xi:include  href="geometry/affine.ptx"/>
+
+      <xi:include  href="geometry/projectivizing.ptx"/>
+
     </chapter>  
 
     <backmatter xml:id="backmatter">

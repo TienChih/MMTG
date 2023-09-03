@@ -1,0 +1,126 @@
+<section xml:id="section-affine">
+    <title>The Finite Affine Plane</title>
+    <subsection xml:id="subsec-projectiveaxioms">
+      <title>Axioms (and Duality?)</title>
+      <definition xml:id="def-affineplane">
+        <p>
+          A <em>finite affine plane</em> of order <m>n</m> (<m>n\geq 2</m>) is a model that satisfies the Axioms <xref ref="axiom-linesize"/>, 
+          <xref ref = "axiom-notbelong"/>, <xref ref = "axiom-existsline"/>, <xref ref = "axiom-twopoint"/> 
+          and the following additional Axioms:
+        </p>
+
+        <axiom xml:id="axiom-aintersect">
+          <p>
+            Given a line <m>L</m> and a point <m>A</m>, there is a unique line containing <m>A</m> passing through <m>L</m>.
+          </p>
+        </axiom>
+
+        <axiom xml:id="axiom-asize">
+          <p>
+            There is at least one line <m>L</m> containing exactly <m>n</m> points.
+          </p>
+        </axiom>
+
+        
+
+
+      </definition>
+
+      <problem>
+        <p>
+          If a model satisfies <xref ref="def-affineplane"/> do the theorems proven in  <xref ref="section-plane"/> hold for it?
+        </p>
+      </problem>
+
+      
+
+      <problem>
+        <p>
+          Does the grid found in <xref ref="activity-buildplane"/> satisfy <xref ref="def-affineplane"/>. 
+           If so, what would the points and lines be?
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Does the model found in <xref ref="problem-euclid"/> satisfy <xref ref="def-affineplane"/>?  Why or why not?
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Does the model found in <xref ref="problem-hyperbolic"/> satisfy <xref ref="def-affineplane"/>?  Why or why not?
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Does the model found in <xref ref="problem-fano"/> satisfy <xref ref="def-affineplane"/>?  Why or why not?
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Find the smallest model for <xref ref="def-affineplane"/>, show that it satisfies these axioms, then show that it is the smallest.
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Show that affine planes do not satisfy the duality projective planes do.
+        </p>
+      </problem>
+
+      
+
+    </subsection>
+
+    <subsection xml:id="subsec-projectivecounting">
+      <title>Counting points and lines</title>
+
+      
+
+      
+
+     
+
+      
+
+
+
+      <problem>
+        <p>
+          Show that for <em>every</em> point in a finite affine plane, there exactly <m>n+1</m> lines containing that point.
+        </p>
+        
+      </problem>
+
+      <problem>
+        <p>
+          Show that <em>every</em> line contains <m>n</m> points.
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Show that for <em>every</em> line <m>L</m>, there are exactly <m>n-1</m> lines which do not intersect it.
+        </p>
+      </problem>
+
+      <problem>
+        <p>
+          Show that a finite affine plane of order <m>n</m> has <m>n^2</m> points, and <m>n^2+n</m> lines.
+        </p>
+      </problem>
+
+     
+
+      
+      
+    </subsection>
+
+       
+      
+
+    
+  </section>
