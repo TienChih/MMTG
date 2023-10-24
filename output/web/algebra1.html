@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Algebraic Operations</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Modern Math through Games">
+<meta property="book:author" content="Tien Chih">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.32/pretext_search.js"></script><link href="https://pretextbook.org/css/0.82/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.32</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.32/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.32/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.32/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="https://pretextbook.org/css/0.82/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="MMTG.html"><span class="title">Modern Math through Games:</span> <span class="subtitle">Notes for Discovery Seminar</span></a></h1>
+<p class="byline">Tien Chih</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="section-affine.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-geometry.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-definitions.html" class="internal"><span class="codenumber">1</span> <span class="title">Where do definitions come from anyway?</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="section-sandwich.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Definitions and Sandwiches</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="chapter-geometry.html" class="internal"><span class="codenumber">2</span> <span class="title">Geometry?  In my card game?</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-set.html" class="internal"><span class="codenumber">2.1</span> <span class="title">SET</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-plane.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Neutral Plane Axioms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-plane.html#subsec-models" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Introducing Axiom Systems and Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-plane.html#subsec-planeaxioms" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Neutral Plane Axioms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-plane.html#subsec-parallel" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Parallelism</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-plane.html#subsec-plane" class="internal"><span class="codenumber">2.2.4</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-pset.html" class="internal"><span class="codenumber">2.3</span> <span class="title">P(rojective) SET</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-projective.html" class="internal"><span class="codenumber">2.4</span> <span class="title">The Finite Projective Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-projective.html#subsec-projectiveaxioms" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Axioms and Duality</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-projective.html#subsec-projectivecounting" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Counting points and lines</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-affine.html" class="internal"><span class="codenumber">2.5</span> <span class="title">The Finite Affine Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-affine.html#subsec-projectiveaxioms" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Axioms (and Duality?)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-affine.html#subsec-projectivecounting" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Counting points and lines</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-affine.html" class="internal"><span class="codenumber">2.6</span> <span class="title">The Projective Planes from Affine Spaces</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-affine.html#subsec-affinespace" class="internal"><span class="codenumber">2.6.1</span> <span class="title">Back to the 3d</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="algebra1.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Algebraic Operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="algebra1.html#exer_alg1" class="internal"><span class="codenumber">2.7</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="algebra1"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.7</span><span class="space"> </span><span class="title">Algebraic Operations</span>
+</h2>
+<article class="definition definition-like" id="def_structure"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.7.1</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-173">An <dfn class="terminology">algebraic structure</dfn> consists of a set <span class="process-math">\(S\)</span> of elements, together with one or more operations on <span class="process-math">\(S\text{.}\)</span>
+</div></article><article class="activity project-like" id="act_operations"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.1</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-174">Give a brief description of an algebraic structure that students might first encounter in <dfn class="terminology">(a)</dfn> early elementary school (pre-K to 2nd grade). <dfn class="terminology">(b)</dfn> later elementary school (2nd to 5th grade) <dfn class="terminology">(c)</dfn> high school.</div> <div class="para" id="p-175">In each case, describe: What is the set <span class="process-math">\(S\)</span> of elements? What is the operation? Is it unary/binary/ternary?</div></article><div class="para" id="p-176">Perhaps the most well-studied operations in algebra are binary operations. (You may have noticed these came most readily to mind in the above activity.)</div>
+<article class="definition definition-like" id="def_binaries"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.7.2</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-177">A <dfn class="terminology">magma</dfn> is an algebraic structure with a single binary operation.</div> <div class="para" id="p-178">In other words, a magma <span class="process-math">\((S,\cdot)\)</span> consists of a set <span class="process-math">\(S\)</span> of elements, together with a binary operation <span class="process-math">\(\cdot \colon S\times S \to S\)</span> that assigns to every “input” pair of elements of <span class="process-math">\(S\text{,}\)</span> an “output” element of <span class="process-math">\(S\text{.}\)</span>
+</div></article><div class="para" id="p-179">When the set of elements in a magma is small and finite, it is convenient to represent it using a “times-table”-like chart called an operation table.</div>
+<article class="definition definition-like" id="def_optable"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.7.3</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-180">Let <span class="process-math">\((S,\cdot)\)</span> be a magma for which <span class="process-math">\(S\)</span> is a finite set. An <dfn class="terminology">operation table</dfn> for <span class="process-math">\((S,\cdot)\)</span> is a table showing, for all <span class="process-math">\(x,y\in S\text{,}\)</span> the result of the operation <span class="process-math">\(x\cdot y\)</span> on the same row as <span class="process-math">\(x\)</span> and the same column as <span class="process-math">\(y\text{:}\)</span>
+</div> <div class="para" id="p-181"><figure class="table table-like" id="table-1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.7.4<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\((S,\cdot)\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\cdots\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\cdots\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\cdots\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><span class="process-math">\(\vdots\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><span class="process-math">\(x\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(x\cdot y\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><span class="process-math">\(\vdots\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><span class="process-math">\(\vdots\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+</table></div></figure></div></article><article class="activity project-like" id="act_magma1"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.2</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-182">
+<div class="para">Shown below is the operation table for a magma on the set</div>
+<div class="displaymath process-math">
+\begin{equation*}
+S = \{ {\rm positive}, {\rm negative}\}.
+\end{equation*}
+</div>
+<div class="para">
+<dfn class="terminology">(a)</dfn> What do you think the operation of this magma is? Why?</div>
+</div> <div class="para" id="p-183"><figure class="table table-like" id="table-2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.7.5<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\((S,\cdot)\)</span></td>
+<td class="l m b2 r0 l0 t0 lines">positive</td>
+<td class="l m b2 r0 l0 t0 lines">negative</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">positive</td>
+<td class="l m b0 r0 l0 t0 lines">positive</td>
+<td class="l m b0 r0 l0 t0 lines">negative</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">negative</td>
+<td class="l m b0 r0 l0 t0 lines">negative</td>
+<td class="l m b0 r0 l0 t0 lines">positive</td>
+</tr>
+</table></div></figure></div> <div class="para" id="p-184">
+<dfn class="terminology">(b)</dfn> Write an operation table for a magma on the set <span class="process-math">\(S = \{ {\rm even}, {\rm odd}\}\)</span> that “looks the same” as the one above. Explain what the operation you chose is.</div> <div class="para" id="p-185">
+<dfn class="terminology">(c)</dfn> Write an operation table for a magma on the set <span class="process-math">\(S = \{ {\rm even}, {\rm odd}\}\)</span> that “looks fundamentally different” as the one above. Explain what the operation you chose is.</div></article><div class="para" id="p-186">Magmas are like the “wild west” of algebraic structure; there are in general no rules that the operation in a magma must satisfy. That also means that magmas are, mathematically, rather uninteresting on their own. In order to study more interesting algebraic structures, we would like to have operations that satisfy nice properties. Some of these properties will be familiar to you from high-school algebra; others may be more baroque.</div>
+<article class="definition definition-like" id="def_algprop"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.7.6</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-187">An <dfn class="terminology">algebraic property</dfn> on a magma <span class="process-math">\((S,\cdot)\)</span> is an equation involving one or more elements of <span class="process-math">\(S\)</span> and the operation <span class="process-math">\(\cdot\text{,}\)</span> in which at least one element is universally quantified on <span class="process-math">\(S\text{.}\)</span>
+</div></article><div class="para" id="p-188">In other words, an algebraic property is an assertion that some equation involving the elements of <span class="process-math">\(S\)</span> must be true, “for all” values that we could fill in for one or more of its variables.</div>
+<article class="definition definition-like" id="def_props"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.7.7</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-189">The following is a list of some selected algebraic properties on a magma <span class="process-math">\((S,\cdot)\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="mdn-1">
+\begin{align}
+\text{For all }x\in S: \amp\amp x\cdot x \amp= x \amp \text{Idempotent property}\tag{2.7.1}\\
+\text{For all }x,y\in S: \amp\amp x\cdot y \amp = y\cdot x \amp \text{Commutative property}\tag{2.7.2}\\
+\text{For all }x,y\in S: \amp\amp (x\cdot y)\cdot x \amp = x\cdot (y\cdot x)  \amp \text{Flexible property}\tag{2.7.3}\\
+\text{For all }x,y\in S: \amp\amp x\cdot x \amp = y\cdot y \amp \text{Unipotent property}\tag{2.7.4}\\
+\text{For all }x,y,z\in S: \amp\amp (x\cdot y)\cdot z \amp = x\cdot (y\cdot z) \amp \text{Associative property}\tag{2.7.5}\\
+\text{For all }x,y,z\in S: \amp\amp x\cdot (y\cdot z) \amp = (x\cdot y) \cdot (x\cdot z) \amp \text{Left-distributive property}\tag{2.7.6}\\
+\text{For all }x,y,z\in S: \amp\amp (x\cdot y)\cdot z \amp = (x\cdot z) \cdot (y\cdot z) \amp \text{Right-distributive property}\tag{2.7.7}\\
+\text{For all }x,y,z\in S: \amp\amp x\cdot y = x\cdot z \amp \text{ implies } y=z \amp \text{Left-cancel property}\tag{2.7.8}\\
+\text{For all }x,y,z\in S: \amp\amp y\cdot x = z\cdot x \amp \text{ implies } y=z \amp \text{Right-cancel property}\tag{2.7.9}\\
+\text{There exists }e\in S\text{ such that for all }x\in S: \amp\amp e\cdot x = x\cdot e \amp= x \amp \text{Identity property}\tag{2.7.10}\\
+\text{For all }x\in S\text{ there exists }y\in S: \amp\amp x\cdot y = y\cdot x\amp = e \amp \text{Invertibility property}\tag{2.7.11}
+\end{align}
+</div></article><div class="para" id="p-190">A given magma may have none of these properties, or many. The more properties a magma has, the more ability we have to simplify algebraic expressions and solve equations within it.</div>
+<article class="activity project-like" id="act_props1"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.3</span><span class="period">.</span>
+</h3>
+<ol class="decimal">
+<li id="li-27"><div class="para" id="p-191">Give three examples of properties from the above list which are satisfied by the magma of integers with subtraction, <span class="process-math">\((\mathbb{Z}, -)\text{.}\)</span> Justify your answers.</div></li>
+<li id="li-28"><div class="para" id="p-192">Give three examples of properties from the above list which are <em class="emphasis">not</em> satisfied by the magma of integers with subtraction, <span class="process-math">\((\mathbb{Z}, -)\text{.}\)</span> Justify your answers, using specific counterexamples.</div></li>
+<li id="li-29"><div class="para" id="p-193">Can you think of a example of a magma having the idempotent property, that a grade school student would recognize?</div></li>
+</ol>
+<div class="solutions"><details id="hint-20" class="hint solution-like"><summary><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like"><div class="para" id="p-194">For part (c), reflect on your answers to <a href="" class="xref" data-knowl="./knowl/act_magma1.html" title="Activity 2.7.2">Activity 2.7.2</a>.</div></div></details></div></article><div class="para" id="p-195">Magmas with additional properties often are given more specialized names; of which some are as follows.</div>
+<article class="definition definition-like" id="def_namedmagmas"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.7.8</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-196">We say that a magma <span class="process-math">\((S,\cdot)\)</span> is a <span class="process-math">\(\underline{\hspace{1in}}\)</span> if it enjoys the following combinations of properties:</div> <figure class="table table-like" id="table-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.7.9<span class="period">.</span></span><span class="space"> </span>A selection of named algebraic structures.</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><dfn class="terminology">unital magma</dfn></td>
+<td class="l m b0 r0 l0 t0 lines">identity</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><dfn class="terminology">quasi-group</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">invertibility</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><dfn class="terminology">Moufang loop</dfn></td>
+<td class="l m b0 r0 l0 t0 lines">identity</td>
+<td class="l m b0 r0 l0 t0 lines">invertibility</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><dfn class="terminology">semi-group</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">associative</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><dfn class="terminology">inverse semi-group</dfn></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">invertibility</td>
+<td class="l m b0 r0 l0 t0 lines">associative</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><dfn class="terminology">monoid</dfn></td>
+<td class="l m b0 r0 l0 t0 lines">identity</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">associative</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><dfn class="terminology">commutative monoid</dfn></td>
+<td class="l m b0 r0 l0 t0 lines">identity</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">associative</td>
+<td class="l m b0 r0 l0 t0 lines">commutative</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><dfn class="terminology">group</dfn></td>
+<td class="l m b0 r0 l0 t0 lines">identity</td>
+<td class="l m b0 r0 l0 t0 lines">invertibility</td>
+<td class="l m b0 r0 l0 t0 lines">associative</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><dfn class="terminology">abelian group</dfn></td>
+<td class="l m b0 r0 l0 t0 lines">identity</td>
+<td class="l m b0 r0 l0 t0 lines">invertibility</td>
+<td class="l m b0 r0 l0 t0 lines">associative</td>
+<td class="l m b0 r0 l0 t0 lines">commutative</td>
+</tr>
+</table></div></figure></article><div class="para" id="p-197">Further examples of algebraic structures can be found on this Wikipedia entry: <a class="external" href="https://en.wikipedia.org/wiki/Magma_(algebra)#Classification_by_properties" target="_blank"><code class="code-inline tex2jax_ignore">https://en.wikipedia.org/wiki/Magma_(algebra)#Classification_by_properties</code></a>
+</div>
+<article class="activity project-like" id="act_workprops"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.4</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-198">Use the operation table below for the magma <span class="process-math">\((S,\cdot)\)</span> on the set <span class="process-math">\(S=\{a,b,c\}\)</span> to answer the questions that follow.</div> <div class="para" id="p-199"><figure class="table table-like" id="table-4"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.7.10<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="l m b2 r0 l0 t0 lines">a</td>
+<td class="l m b2 r0 l0 t0 lines">b</td>
+<td class="l m b2 r0 l0 t0 lines">c</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">a</td>
+<td class="l m b0 r0 l0 t0 lines">a</td>
+<td class="l m b0 r0 l0 t0 lines">a</td>
+<td class="l m b0 r0 l0 t0 lines">c</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">b</td>
+<td class="l m b0 r0 l0 t0 lines">a</td>
+<td class="l m b0 r0 l0 t0 lines">b</td>
+<td class="l m b0 r0 l0 t0 lines">c</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">c</td>
+<td class="l m b0 r0 l0 t0 lines">b</td>
+<td class="l m b0 r0 l0 t0 lines">c</td>
+<td class="l m b0 r0 l0 t0 lines">c</td>
+</tr>
+</table></div></figure></div> <div class="para logical" id="p-200"><ol class="decimal">
+<li id="li-30"><div class="para" id="p-201">What is the value of <span class="process-math">\(c\cdot a\text{?}\)</span>
+</div></li>
+<li id="li-31"><div class="para" id="p-202">What is/are the solution(s) of the equation <span class="process-math">\(a\cdot x = a\text{?}\)</span>
+</div></li>
+<li id="li-32"><div class="para" id="p-203">What is/are the solution(s) of the equation <span class="process-math">\(x\cdot c = b\text{?}\)</span>
+</div></li>
+<li id="li-33"><div class="para" id="p-204">Explain why <span class="process-math">\((S,\cdot)\)</span> <em class="emphasis">is</em> a unital magma.</div></li>
+<li id="li-34"><div class="para" id="p-205">Explain why <span class="process-math">\((S,\cdot)\)</span> <em class="emphasis">is not</em> a monoid.</div></li>
+<li id="li-35"><div class="para" id="p-206">Is <span class="process-math">\((S,\cdot)\)</span> a Moufang loop? Why or why not?</div></li>
+</ol></div></article><article class="activity project-like" id="act_grouptable"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.5</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-207">Use the operation table below for the magma <span class="process-math">\((S,\cdot)\)</span> on the set <span class="process-math">\(S=\{a,b,c\}\)</span> to answer the questions that follow. Four of the entries are missing.</div> <div class="para" id="p-208"><figure class="table table-like" id="table-5"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.7.11<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="l m b2 r0 l0 t0 lines">a</td>
+<td class="l m b2 r0 l0 t0 lines">b</td>
+<td class="l m b2 r0 l0 t0 lines">c</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">a</td>
+<td class="l m b0 r0 l0 t0 lines">a</td>
+<td class="l m b0 r0 l0 t0 lines">b</td>
+<td class="l m b0 r0 l0 t0 lines">c</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">b</td>
+<td class="l m b0 r0 l0 t0 lines">b</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\underline{\hspace{2ex}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\underline{\hspace{2ex}}\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">c</td>
+<td class="l m b0 r0 l0 t0 lines">c</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\underline{\hspace{2ex}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\underline{\hspace{2ex}}\)</span></td>
+</tr>
+</table></div></figure></div> <div class="para logical" id="p-209"><ol class="decimal">
+<li id="li-36"><div class="para" id="p-210">Explain how we can already tell that <span class="process-math">\((S,\cdot)\)</span> is a unital magma.</div></li>
+<li id="li-37"><div class="para" id="p-211">Fill in two of the four missing entries to make <span class="process-math">\((S,\cdot)\)</span> into a Moufang loop.</div></li>
+<li id="li-38"><div class="para" id="p-212">Beginning with your previous answer, can you fill in the remaining two entries to make <span class="process-math">\((S,\cdot)\)</span> into a group? Why or why not?</div></li>
+</ol></div></article><section class="exercises" id="exer_alg1"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="ex_a1_1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para logical" id="p-213">
+<div class="para">Consider the magma whose elements are integers, <span class="process-math">\(\mathbb{Z} = \{ \ldots, -3,-2,-1,0,1,2,3,\ldots,\}\text{,}\)</span> and whose binary operation called <span class="process-math">\(\triangleright\)</span> is defined by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x \triangleright y = 2y - x.
+\end{equation*}
+</div>
+<ol class="lower-alpha">
+<li id="li-39"><div class="para" id="p-214">Show that <span class="process-math">\((\mathbb{Z},\triangleright)\)</span> has the idempotent property.</div></li>
+<li id="li-40"><div class="para" id="p-215">Show that <span class="process-math">\((\mathbb{Z},\triangleright)\)</span> has the right-distributive property. Does it also have the left-distributive property?</div></li>
+<li id="li-41"><div class="para" id="p-216">Simplify the expression <span class="process-math">\(\bigl( x\triangleright y\bigr) \triangleright y\text{.}\)</span> What does this result tell you about whether this magma is associative?</div></li>
+<li id="li-42"><div class="para" id="p-217">Does <span class="process-math">\((\mathbb{Z},\triangleright)\)</span> have the identity property? How can you tell?</div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="ex_a1_2"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="p-218">Let <span class="process-math">\((S,\cdot)\)</span> be a magma.</div> <ol class="lower-alpha">
+<li id="li-43"><div class="para" id="p-219">Show that if <span class="process-math">\((S,\cdot)\)</span> is a group, then it must have both the left-cancel property and the right-cancel property.</div></li>
+<li id="li-44"><div class="para" id="p-220">Suppose that <span class="process-math">\((S,\cdot)\)</span> has the identity property <em class="emphasis">and either</em> the left-cancel or right-cancel property. Show that if <span class="process-math">\((S,\cdot)\)</span> has the idempotent property, then <span class="process-math">\(S\)</span> has only one element.</div></li>
+</ol></article><article class="exercise exercise-like" id="ex_a1_3"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para" id="p-221">Suppose <span class="process-math">\((S,\cdot)\)</span> is a magma on the set <span class="process-math">\(S = \{e,a,b,c\}\)</span> having the operation table shown below.</div> <figure class="table table-like" id="table-6"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.7.12<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(\cdot\)</span></td>
+<td class="l m b2 r0 l0 t0 lines">e</td>
+<td class="l m b2 r0 l0 t0 lines">a</td>
+<td class="l m b2 r0 l0 t0 lines">b</td>
+<td class="l m b2 r0 l0 t0 lines">c</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">e</td>
+<td class="l m b0 r0 l0 t0 lines">e</td>
+<td class="l m b0 r0 l0 t0 lines">a</td>
+<td class="l m b0 r0 l0 t0 lines">b</td>
+<td class="l m b0 r0 l0 t0 lines">c</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">a</td>
+<td class="l m b0 r0 l0 t0 lines">a</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\underline{\hspace{2ex}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\underline{\hspace{2ex}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\underline{\hspace{2ex}}\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">b</td>
+<td class="l m b0 r0 l0 t0 lines">b</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\underline{\hspace{2ex}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\underline{\hspace{2ex}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\underline{\hspace{2ex}}\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines">c</td>
+<td class="l m b0 r0 l0 t0 lines">c</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\underline{\hspace{2ex}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\underline{\hspace{2ex}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\underline{\hspace{2ex}}\)</span></td>
+</tr>
+</table></div></figure> <div class="para" id="p-222">We can already see that <span class="process-math">\((S,\cdot)\)</span> is a unital magma.</div> <ol class="lower-alpha">
+<li id="li-45"><div class="para" id="p-223">Explain why, if <span class="process-math">\((S,\cdot)\)</span> has the left-cancel property, there cannot be a repeated element in any <em class="emphasis">row</em> of its operation table. What property would give the corresponding result for the <em class="emphasis">columns</em>?</div></li>
+<li id="li-46"><div class="para" id="p-224">Find two fundamentally different ways of completing this operation table so that <span class="process-math">\((S,\cdot)\)</span> has both the left-cancel and right-cancel properties.</div></li>
+<li id="li-47"><div class="para" id="p-225">Does every answer to part (b) make <span class="process-math">\((S,\cdot)\)</span> an abelian group? If so, explain how you can tell. If not, find an operation table for <span class="process-math">\((S,\cdot)\)</span> which has both the left- and right-cancel properties but which is not an abelian group.</div></li>
+</ol></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="section-affine.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
