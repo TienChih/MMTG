@@ -70,7 +70,16 @@
 
       <xi:include  href="geometry/projectivizing.ptx"/>
 
+
+
     </chapter>  
+
+    <chapter xml:id="ch-Algebra">
+      <title>Algebra</title>
+      <xi:include  href="algebra/group.ptx"/>
+
+      
+    </chapter>
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
