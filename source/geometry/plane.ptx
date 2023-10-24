@@ -72,23 +72,6 @@
           <li>
             <p>
               Points are dots, segments are lines, point belongs to a line if a segment connects them:
-              <figure xml:id="figure-K4">
-                <caption>A model for a 4-point geometry</caption>
-                <image xml:id="image-K4" width="50%">
-                  <description>A complete graph on 4 vertices.</description>
-                  <latex-image>
-                    \begin{tikzpicture}
-                    \draw[fill] (0,0) circle (2pt) node[above right]{\tiny$1$};
-                    \draw[fill] (0,1) circle (2pt) node[above ]{\tiny$2$};
-                    \draw[fill] ({sin(120)},{cos(120)}) circle (2pt) node[below right]{\tiny$3$};
-                    \draw[fill] ({sin(240)},{cos(240)}) circle (2pt) node[below left]{\tiny$4$};
-                    \draw (0,0)-- (0,1) -- ({sin(120)},{cos(120)}) -- ({sin(240)},{cos(240)}) -- (0,1);
-                    \draw (0,0) -- ({sin(240)},{cos(240)});
-                    \draw (0,0) -- ({sin(120)},{cos(120)});
-                    \end{tikzpicture}
-                  </latex-image>
-                </image>
-              </figure>
               
             </p>
           </li>
