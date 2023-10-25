@@ -1,1 +1,2 @@
-pretext == 1.8.1
+# <!-- Managed automatically by PreTeXt authoring tools -->
+pretext == 2.2.0
