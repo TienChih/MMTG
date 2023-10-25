@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": "   tienchih.github.io   https:\/\/tienchih.github.io   copyright  "
+  "body": "  tienchih.github.io   copyright  "
 },
 {
   "id": "section-sandwich",
@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Neutral Plane Axioms",
-  "body": " Neutral Plane Axioms   Introducing Axiom Systems and Models    An axiom system has two components:   A set of special words that we officially assume have no meaning. The words are sometimes called undefined terms, primitives or technical terms.  A set of statements called axioms that we assume to be true concerning the undefined terms.       A model of an axiom system is a set of meanings for the undefined terms. These meanings are assigned without any regard for whether the axioms become true statements about the undefined terms.     Consider the following axiom system, the 4 point geometry . Let point , line and belongs be the undefined terms. The axioms are:   There are 4 points.    Given two distinct points, there is exactly one line that they both belong to.    Each line has exactly two points belonging to it.   Then the following are models of this axiom system.    Points are letters, lines are columns, a point belongs a line if it is on the column:     Points are dots, segments are lines, point belongs to a line if a segment connects them:  A model for a 4-point geometry   A complete graph on 4 vertices.           Come up with your own model for the 4 point geometry.    Exaplain why the following is not a model for the 4 point geometry    Compare your model to everyone else's models and the examples in . Are these models actually different?      Neutral Plane Axioms  We consider the following axiom system. Let point , line and belongs be the undefined terms.    For each line , there are at least two distinct points belonging to .      For each line , then there is at least one point not belonging to .      There exists at least one line.     Would any model for the 4-point geometry also be a model for this axiom system? Justify your assertion.    What is the minimum number of points possible for a model of this axiom system? Justify your assertion.    Find a model that satisfies , and but not .    Find a model that satisfies , and in which at least two points belong to no line.    Prove or disprove: Each point belongs to a line.   Since such a geometry is fundamentally uninteresting, we add a fourth axiom.    For each pair of distinct points , there is at least one line they both belong to.     Let cards be points and SETs be lines. Does the grid you constructed in satisfy all four of our axioms? Justify your assertion.    Find three different models of our four axioms (it's easier if they are finite).     Find the invalid line of the following proof .     By , there is a line , by , has two points, , . So for each point , there is a line containing .    Prove that every point belongs to a line.    Is it possible that some point belongs to only one line? Prove your response.    Find a model that satisfies our axiom system in which there are two different points and such that at least two different lines each contain both and .    Find a model that satisfies our axiom system in which there are two different points and such that at least two different lines each contain both and .   Since this axiom system still seems flawed, we replace the fourth axiom with a stronger version.    For each pair of distinct points , there is exactly one line they both belong to.     We let denote the line containing both and .    A collection of points are colinear if there are is a line which all the points in the collection belong to.    What would we mean by the statement that points are non-collinear?    Is it true that given a point that there exist two more points such that the three points are collinear? Prove your answer.    Can we say each point is not in some line? Prove your answer.    Suppose and are different lines. What can you say about the number of points that can belong to both and ? Prove your answer.     If are lines, and a point belongs to both lines, we say and  intersect .      Parallelism    Let points be ordered pairs such that are real numbers. Let lines by sets of points which satisfy the equality for some . (This should be familiar).    Show that this model satisfies our axioms.    Let be a line and let be a point which doesn't belong to . How many lines are there that contain but don't intersect .      Let points be ordered pairs such that are real numbers and  . Let lines by sets of points which satisfy the equality for some  and  . (This may not be familiar).       Show that this model satisfies our axioms.    Let be a line and let be a point which doesn't belong to . How many lines are there that contain but don't intersect .     Find a model with 7 points for our axioms where every pair of lines intersect. (Let the lines contain 3 points each)    For any model of our axioms, let be a line and let be a point which doesn't belong to . What can we say about the number of lines which contain but don't intersect .      Define a plane. (The definition should rule in known examples, and rule out non-examples like 3d things.)    State and prove a theorem about planes.    "
+  "body": " Neutral Plane Axioms   Introducing Axiom Systems and Models    An axiom system has two components:   A set of special words that we officially assume have no meaning. The words are sometimes called undefined terms, primitives or technical terms.  A set of statements called axioms that we assume to be true concerning the undefined terms.       A model of an axiom system is a set of meanings for the undefined terms. These meanings are assigned without any regard for whether the axioms become true statements about the undefined terms.     Consider the following axiom system, the 4 point geometry . Let point , line and belongs be the undefined terms. The axioms are:   There are 4 points.    Given two distinct points, there is exactly one line that they both belong to.    Each line has exactly two points belonging to it.   Then the following are models of this axiom system.    Points are letters, lines are columns, a point belongs a line if it is on the column:     Points are dots, segments are lines, point belongs to a line if a segment connects them:       Come up with your own model for the 4 point geometry.    Exaplain why the following is not a model for the 4 point geometry    Compare your model to everyone else's models and the examples in . Are these models actually different?      Neutral Plane Axioms  We consider the following axiom system. Let point , line and belongs be the undefined terms.    For each line , there are at least two distinct points belonging to .      For each line , then there is at least one point not belonging to .      There exists at least one line.     Would any model for the 4-point geometry also be a model for this axiom system? Justify your assertion.    What is the minimum number of points possible for a model of this axiom system? Justify your assertion.    Find a model that satisfies , and but not .    Find a model that satisfies , and in which at least two points belong to no line.    Prove or disprove: Each point belongs to a line.   Since such a geometry is fundamentally uninteresting, we add a fourth axiom.    For each pair of distinct points , there is at least one line they both belong to.     Let cards be points and SETs be lines. Does the grid you constructed in satisfy all four of our axioms? Justify your assertion.    Find three different models of our four axioms (it's easier if they are finite).     Find the invalid line of the following proof .     By , there is a line , by , has two points, , . So for each point , there is a line containing .    Prove that every point belongs to a line.    Is it possible that some point belongs to only one line? Prove your response.    Find a model that satisfies our axiom system in which there are two different points and such that at least two different lines each contain both and .    Find a model that satisfies our axiom system in which there are two different points and such that at least two different lines each contain both and .   Since this axiom system still seems flawed, we replace the fourth axiom with a stronger version.    For each pair of distinct points , there is exactly one line they both belong to.     We let denote the line containing both and .    A collection of points are colinear if there are is a line which all the points in the collection belong to.    What would we mean by the statement that points are non-collinear?    Is it true that given a point that there exist two more points such that the three points are collinear? Prove your answer.    Can we say each point is not in some line? Prove your answer.    Suppose and are different lines. What can you say about the number of points that can belong to both and ? Prove your answer.     If are lines, and a point belongs to both lines, we say and  intersect .      Parallelism    Let points be ordered pairs such that are real numbers. Let lines by sets of points which satisfy the equality for some . (This should be familiar).    Show that this model satisfies our axioms.    Let be a line and let be a point which doesn't belong to . How many lines are there that contain but don't intersect .      Let points be ordered pairs such that are real numbers and  . Let lines by sets of points which satisfy the equality for some  and  . (This may not be familiar).       Show that this model satisfies our axioms.    Let be a line and let be a point which doesn't belong to . How many lines are there that contain but don't intersect .     Find a model with 7 points for our axioms where every pair of lines intersect. (Let the lines contain 3 points each)    For any model of our axioms, let be a line and let be a point which doesn't belong to . What can we say about the number of lines which contain but don't intersect .      Define a plane. (The definition should rule in known examples, and rule out non-examples like 3d things.)    State and prove a theorem about planes.    "
 },
 {
   "id": "def-geometry",
@@ -160,14 +160,14 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.2.2",
   "title": "",
-  "body": " Consider the following axiom system, the 4 point geometry . Let point , line and belongs be the undefined terms. The axioms are:   There are 4 points.    Given two distinct points, there is exactly one line that they both belong to.    Each line has exactly two points belonging to it.   Then the following are models of this axiom system.    Points are letters, lines are columns, a point belongs a line if it is on the column:     Points are dots, segments are lines, point belongs to a line if a segment connects them:  A model for a 4-point geometry   A complete graph on 4 vertices.        "
+  "body": " Consider the following axiom system, the 4 point geometry . Let point , line and belongs be the undefined terms. The axioms are:   There are 4 points.    Given two distinct points, there is exactly one line that they both belong to.    Each line has exactly two points belonging to it.   Then the following are models of this axiom system.    Points are letters, lines are columns, a point belongs a line if it is on the column:     Points are dots, segments are lines, point belongs to a line if a segment connects them:    "
 },
 {
   "id": "problem-3",
   "level": "2",
   "url": "section-plane.html#problem-3",
   "type": "Problem",
-  "number": "2.2.4",
+  "number": "2.2.3",
   "title": "",
   "body": "  Come up with your own model for the 4 point geometry.    Exaplain why the following is not a model for the 4 point geometry    Compare your model to everyone else's models and the examples in . Are these models actually different?   "
 },
@@ -176,7 +176,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#axiom-linesize",
   "type": "Axiom",
-  "number": "2.2.5",
+  "number": "2.2.4",
   "title": "",
   "body": "  For each line , there are at least two distinct points belonging to .   "
 },
@@ -185,7 +185,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#axiom-notbelong",
   "type": "Axiom",
-  "number": "2.2.6",
+  "number": "2.2.5",
   "title": "",
   "body": "  For each line , then there is at least one point not belonging to .   "
 },
@@ -194,7 +194,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#axiom-existsline",
   "type": "Axiom",
-  "number": "2.2.7",
+  "number": "2.2.6",
   "title": "",
   "body": "  There exists at least one line.   "
 },
@@ -203,7 +203,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-4",
   "type": "Problem",
-  "number": "2.2.8",
+  "number": "2.2.7",
   "title": "",
   "body": " Would any model for the 4-point geometry also be a model for this axiom system? Justify your assertion.  "
 },
@@ -212,7 +212,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-5",
   "type": "Problem",
-  "number": "2.2.9",
+  "number": "2.2.8",
   "title": "",
   "body": " What is the minimum number of points possible for a model of this axiom system? Justify your assertion.  "
 },
@@ -221,7 +221,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-6",
   "type": "Problem",
-  "number": "2.2.10",
+  "number": "2.2.9",
   "title": "",
   "body": " Find a model that satisfies , and but not .  "
 },
@@ -230,7 +230,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-7",
   "type": "Problem",
-  "number": "2.2.11",
+  "number": "2.2.10",
   "title": "",
   "body": " Find a model that satisfies , and in which at least two points belong to no line.  "
 },
@@ -239,7 +239,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-8",
   "type": "Problem",
-  "number": "2.2.12",
+  "number": "2.2.11",
   "title": "",
   "body": " Prove or disprove: Each point belongs to a line.  "
 },
@@ -248,7 +248,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#axiom-twopointweak",
   "type": "Axiom",
-  "number": "2.2.13",
+  "number": "2.2.12",
   "title": "",
   "body": "  For each pair of distinct points , there is at least one line they both belong to.   "
 },
@@ -257,7 +257,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-9",
   "type": "Problem",
-  "number": "2.2.14",
+  "number": "2.2.13",
   "title": "",
   "body": " Let cards be points and SETs be lines. Does the grid you constructed in satisfy all four of our axioms? Justify your assertion.  "
 },
@@ -266,7 +266,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-10",
   "type": "Problem",
-  "number": "2.2.15",
+  "number": "2.2.14",
   "title": "",
   "body": " Find three different models of our four axioms (it's easier if they are finite).  "
 },
@@ -275,7 +275,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-11",
   "type": "Problem",
-  "number": "2.2.16",
+  "number": "2.2.15",
   "title": "",
   "body": "  Find the invalid line of the following proof .   "
 },
@@ -293,7 +293,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-12",
   "type": "Problem",
-  "number": "2.2.17",
+  "number": "2.2.16",
   "title": "",
   "body": " Prove that every point belongs to a line.  "
 },
@@ -302,7 +302,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-13",
   "type": "Problem",
-  "number": "2.2.18",
+  "number": "2.2.17",
   "title": "",
   "body": " Is it possible that some point belongs to only one line? Prove your response.  "
 },
@@ -311,7 +311,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-14",
   "type": "Problem",
-  "number": "2.2.19",
+  "number": "2.2.18",
   "title": "",
   "body": " Find a model that satisfies our axiom system in which there are two different points and such that at least two different lines each contain both and .  "
 },
@@ -320,7 +320,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-15",
   "type": "Problem",
-  "number": "2.2.20",
+  "number": "2.2.19",
   "title": "",
   "body": " Find a model that satisfies our axiom system in which there are two different points and such that at least two different lines each contain both and .  "
 },
@@ -329,7 +329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#axiom-twopoint",
   "type": "Axiom",
-  "number": "2.2.21",
+  "number": "2.2.20",
   "title": "",
   "body": "  For each pair of distinct points , there is exactly one line they both belong to.   "
 },
@@ -338,7 +338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#definition-3",
   "type": "Definition",
-  "number": "2.2.22",
+  "number": "2.2.21",
   "title": "",
   "body": " We let denote the line containing both and .  "
 },
@@ -347,7 +347,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#definition-4",
   "type": "Definition",
-  "number": "2.2.23",
+  "number": "2.2.22",
   "title": "",
   "body": " A collection of points are colinear if there are is a line which all the points in the collection belong to.  "
 },
@@ -356,7 +356,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-16",
   "type": "Problem",
-  "number": "2.2.24",
+  "number": "2.2.23",
   "title": "",
   "body": " What would we mean by the statement that points are non-collinear?  "
 },
@@ -365,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-17",
   "type": "Problem",
-  "number": "2.2.25",
+  "number": "2.2.24",
   "title": "",
   "body": " Is it true that given a point that there exist two more points such that the three points are collinear? Prove your answer.  "
 },
@@ -374,7 +374,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-18",
   "type": "Problem",
-  "number": "2.2.26",
+  "number": "2.2.25",
   "title": "",
   "body": " Can we say each point is not in some line? Prove your answer.  "
 },
@@ -383,7 +383,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-19",
   "type": "Problem",
-  "number": "2.2.27",
+  "number": "2.2.26",
   "title": "",
   "body": " Suppose and are different lines. What can you say about the number of points that can belong to both and ? Prove your answer.  "
 },
@@ -392,7 +392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#def-intersect",
   "type": "Definition",
-  "number": "2.2.28",
+  "number": "2.2.27",
   "title": "",
   "body": "  If are lines, and a point belongs to both lines, we say and  intersect .   "
 },
@@ -401,7 +401,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-euclid",
   "type": "Problem",
-  "number": "2.2.29",
+  "number": "2.2.28",
   "title": "",
   "body": "  Let points be ordered pairs such that are real numbers. Let lines by sets of points which satisfy the equality for some . (This should be familiar).    Show that this model satisfies our axioms.    Let be a line and let be a point which doesn't belong to . How many lines are there that contain but don't intersect .   "
 },
@@ -410,7 +410,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-hyperbolic",
   "type": "Problem",
-  "number": "2.2.30",
+  "number": "2.2.29",
   "title": "",
   "body": "  Let points be ordered pairs such that are real numbers and  . Let lines by sets of points which satisfy the equality for some  and  . (This may not be familiar).       Show that this model satisfies our axioms.    Let be a line and let be a point which doesn't belong to . How many lines are there that contain but don't intersect .   "
 },
@@ -419,7 +419,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-fano",
   "type": "Problem",
-  "number": "2.2.31",
+  "number": "2.2.30",
   "title": "",
   "body": " Find a model with 7 points for our axioms where every pair of lines intersect. (Let the lines contain 3 points each)  "
 },
@@ -428,7 +428,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-23",
   "type": "Problem",
-  "number": "2.2.32",
+  "number": "2.2.31",
   "title": "",
   "body": " For any model of our axioms, let be a line and let be a point which doesn't belong to . What can we say about the number of lines which contain but don't intersect .  "
 },
@@ -437,7 +437,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-24",
   "type": "Problem",
-  "number": "2.2.33",
+  "number": "2.2.32",
   "title": "",
   "body": " Define a plane. (The definition should rule in known examples, and rule out non-examples like 3d things.)  "
 },
@@ -446,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-plane.html#problem-25",
   "type": "Problem",
-  "number": "2.2.34",
+  "number": "2.2.33",
   "title": "",
   "body": " State and prove a theorem about planes.  "
 },
@@ -982,6 +982,60 @@ var ptx_lunr_docs = [
   "body": " If we replace the 3d affine SET space with the standard , and replace Two Green Striped Diamonds with the origin , how would your conjecture you found in be adjusted?  Do you think this new version of the conjecture should be true? Explain your thinking. Can you prove any claims?  "
 },
 {
+  "id": "group",
+  "level": "1",
+  "url": "group.html",
+  "type": "Section",
+  "number": "3.1",
+  "title": "Introduction to groups",
+  "body": " Introduction to groups    A group is a set along with a binary algebraic operation that satisfies the following properties:    Closure: For any in , it follows that in .     Associativity: For any in , it follows that .     Identity: There is an element (usually denoted) in , such that for any in , we have that and .     Inverses: For any in , we there is a in so that .         For each of the following, determine if the given set and operation for a group. If they do not, show for which operations precisely they fail.    Positive integers under addition.    Positive integers under multiplication.    Integers under addition.    Integers under multiplication.    Positive reals under addition.    Positive under multiplication.    Reals under addition.    Reals under multiplication.    Polynomials under addition.    Polynomials under composition.    Rock, Paper, Scissors under winner (or tie).    Bijections from under composition.        Consider the collection of the 8 possible symmetries of a square, 4 rotations (including the 0 degree identity rotation) and the 4 reflections:  Symmetries of a Square  Let composition be the operation.    Find .    Find .    Find .    Find .    Find the inverse of .    Fill out an 8 by 8 multiplication table of the possible operations. What patterns do you notice?    Determine if this set and operation form a group.      Let denote the integers modulo . For example is the set where etc..    Pick 4 different 's. Show that for your choices for a group.    Prove that is always a group.      Prove that identities have to be unique. (What happens if there was a second identity ?)    Prove that right inverses are left inverses. (If there were so that and , what would happen?)    "
+},
+{
+  "id": "def-group",
+  "level": "2",
+  "url": "group.html#def-group",
+  "type": "Definition",
+  "number": "3.1.1",
+  "title": "",
+  "body": "  A group is a set along with a binary algebraic operation that satisfies the following properties:    Closure: For any in , it follows that in .     Associativity: For any in , it follows that .     Identity: There is an element (usually denoted) in , such that for any in , we have that and .     Inverses: For any in , we there is a in so that .      "
+},
+{
+  "id": "problem-69",
+  "level": "2",
+  "url": "group.html#problem-69",
+  "type": "Problem",
+  "number": "3.1.2",
+  "title": "",
+  "body": "  For each of the following, determine if the given set and operation for a group. If they do not, show for which operations precisely they fail.    Positive integers under addition.    Positive integers under multiplication.    Integers under addition.    Integers under multiplication.    Positive reals under addition.    Positive under multiplication.    Reals under addition.    Reals under multiplication.    Polynomials under addition.    Polynomials under composition.    Rock, Paper, Scissors under winner (or tie).    Bijections from under composition.     "
+},
+{
+  "id": "problem-70",
+  "level": "2",
+  "url": "group.html#problem-70",
+  "type": "Problem",
+  "number": "3.1.3",
+  "title": "",
+  "body": "  Consider the collection of the 8 possible symmetries of a square, 4 rotations (including the 0 degree identity rotation) and the 4 reflections:  Symmetries of a Square  Let composition be the operation.    Find .    Find .    Find .    Find .    Find the inverse of .    Fill out an 8 by 8 multiplication table of the possible operations. What patterns do you notice?    Determine if this set and operation form a group.   "
+},
+{
+  "id": "problem-71",
+  "level": "2",
+  "url": "group.html#problem-71",
+  "type": "Problem",
+  "number": "3.1.4",
+  "title": "",
+  "body": "  Let denote the integers modulo . For example is the set where etc..    Pick 4 different 's. Show that for your choices for a group.    Prove that is always a group.   "
+},
+{
+  "id": "problem-72",
+  "level": "2",
+  "url": "group.html#problem-72",
+  "type": "Problem",
+  "number": "3.1.5",
+  "title": "",
+  "body": "  Prove that identities have to be unique. (What happens if there was a second identity ?)    Prove that right inverses are left inverses. (If there were so that and , what would happen?)   "
+},
+{
   "id": "colophon-2",
   "level": "1",
   "url": "colophon-2.html",
@@ -996,6 +1050,7 @@ var ptx_lunr_idx = lunr(function () {
   this.ref('id')
   this.field('title')
   this.field('body')
+  this.metadataWhitelist = ['position']
 
   ptx_lunr_docs.forEach(function (doc) {
     this.add(doc)
