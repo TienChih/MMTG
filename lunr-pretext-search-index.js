@@ -988,7 +988,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Introduction to groups",
-  "body": " Introduction to groups    A group is a set along with a binary algebraic operation that satisfies the following properties:    Closure: For any in , it follows that in .     Associativity: For any in , it follows that .     Identity: There is an element (usually denoted) in , such that for any in , we have that and .     Inverses: For any in , we there is a in so that .         For each of the following, determine if the given set and operation for a group. If they do not, show for which operations precisely they fail.    Positive integers under addition.    Positive integers under multiplication.    Integers under addition.    Integers under multiplication.    Positive reals under addition.    Positive under multiplication.    Reals under addition.    Reals under multiplication.    Polynomials under addition.    Polynomials under composition.    Rock, Paper, Scissors under winner (or tie).    Bijections from under composition.        Consider the collection of the 8 possible symmetries of a square, 4 rotations (including the 0 degree identity rotation) and the 4 reflections:  Symmetries of a Square  Let composition be the operation.    Find .    Find .    Find .    Find .    Find the inverse of .    Fill out an 8 by 8 multiplication table of the possible operations. What patterns do you notice?    Determine if this set and operation form a group.      Let denote the integers modulo with operation addition. For example is the set where etc..    Pick 4 different 's at least 2. Show that for your choices for a group.    Prove that is always a group.      Let denote the symmetries of a regular -sided polygon, with operation composition. For example in describes the symmetries of a regular -gon ie a square.    Pick 3 different 's at least 3. Show that for your choices for a group.    Prove that is always a group.      Let denote the bijections from an element set to itself, with operation composition. For example in describes at the end.    Pick 3 different 's at least 2. Show that for your choices for a group.    Prove that is always a group.      Prove that identities have to be unique. (What happens if there was a second identity ?)    Prove that right inverses are left inverses. (If there were so that and , what would happen?)      A group is said to be abelian if for any .      In the groups you identified in , which groups are abelian?     Given a group a subset is a subgroup of if is also a group with the same operation.    Show that even integers are a subgroup of the integers.  Determine if multiples of three are a subgroup of the integers.  Determine if odd integers are a subgroup of the integers.  Find 3 different subgroups of   Given are the collections of rotations a subgroup?  Given are the collections of reflections a subgroup?  Label the corners of a square . How can this help us find a subgroup of of size 8?   "
+  "body": " Introduction to groups    A group is a set along with a binary algebraic operation that satisfies the following properties:    Closure: For any in , it follows that in .     Associativity: For any in , it follows that .     Identity: There is an element (usually denoted) in , such that for any in , we have that and .     Inverses: For any in , we there is a in so that .         For each of the following, determine if the given set and operation for a group. If they do not, show for which operations precisely they fail.    Positive integers under addition.    Positive integers under multiplication.    Integers under addition.    Integers under multiplication.    Positive reals under addition.    Positive under multiplication.    Reals under addition.    Reals under multiplication.    Polynomials under addition.    Polynomials under composition.    Rock, Paper, Scissors under winner (or tie).    Bijections from under composition.        Consider the collection of the 8 possible symmetries of a square, 4 rotations (including the 0 degree identity rotation) and the 4 reflections:  Symmetries of a Square  Let composition be the operation.    Find .    Find .    Find .    Find .    Find the inverse of .    Fill out an 8 by 8 multiplication table of the possible operations. What patterns do you notice?    Determine if this set and operation form a group.      Let denote the integers modulo with operation addition. For example is the set where etc..    Pick 4 different 's at least 2. Show that for your choices for a group.    Prove that is always a group.      Let denote the symmetries of a regular -sided polygon, with operation composition. For example in describes the symmetries of a regular -gon ie a square.    Pick 3 different 's at least 3. Show that for your choices for a group.    Prove that is always a group.      Let denote the bijections from an element set to itself, with operation composition. For example in describes at the end.    Pick 3 different 's at least 2. Show that for your choices for a group.    Prove that is always a group.      Prove that identities have to be unique. (What happens if there was a second identity ?)    Prove that right inverses are left inverses. (If there were so that and , what would happen?)      A group is said to be abelian if for any .      In the groups you identified in , which groups are abelian?     Given a group a subset is a subgroup of if is also a group with the same operation.    Show that even integers are a subgroup of the integers.  Determine if multiples of three are a subgroup of the integers.  Determine if odd integers are a subgroup of the integers.  Find 3 different subgroups of   Given are the collections of rotations a subgroup?  Given are the collections of reflections a subgroup?  Label the corners of a square . How can this help us find a subgroup of of size 8?     Let .   Find so that = and .  Let . simplify .  Let . simplify .  What are and   Show that the set of all possible combinations of form a group.  Recall you proof in Rational Tangles that each rational numbered may be achieved through the tangling process. Show that any knot corresponding to a tangle can be undone and reverted to the original position.    Let . If is a bijection such that we say that is a isomorphism and are isomorphic.    Show that and the group under matrix multiplication are isomorphic. Can you think of a natural reason why they should be?    Find all subgroups of which are isomorphic to .    Determine if is isomorphic to .    Find 3 groups of size 4 which are not isomorphic to each other or explain why this is not possible.     Consider the group . Recall SET. Let the first entry correspond to number, the second color, the third shading and the fourth shape. Assign a value to each characteristic.  Let a GSET denote a collection of three cards so that their sum is .   Compare GSETS to SETS. What collections of cards are SETS but not GSETS? What are GSETS but not SETS?  Pick a card which corresponds to pick two other cards which are not inverses of each other. What is the subgroup generated by these two cards and what are their corresponding cards?  Remember when we conjectured that any 3 cards which don't form a SET would generate a plane? Now prove it.   "
 },
 {
   "id": "def-group",
@@ -1088,6 +1088,69 @@ var ptx_lunr_docs = [
   "number": "3.1.11",
   "title": "",
   "body": " Show that even integers are a subgroup of the integers.  Determine if multiples of three are a subgroup of the integers.  Determine if odd integers are a subgroup of the integers.  Find 3 different subgroups of   Given are the collections of rotations a subgroup?  Given are the collections of reflections a subgroup?  Label the corners of a square . How can this help us find a subgroup of of size 8?  "
+},
+{
+  "id": "problem-77",
+  "level": "2",
+  "url": "group.html#problem-77",
+  "type": "Problem",
+  "number": "3.1.12",
+  "title": "",
+  "body": "  Let .   Find so that = and .  Let . simplify .  Let . simplify .  What are and   Show that the set of all possible combinations of form a group.  Recall you proof in Rational Tangles that each rational numbered may be achieved through the tangling process. Show that any knot corresponding to a tangle can be undone and reverted to the original position.  "
+},
+{
+  "id": "definition-12",
+  "level": "2",
+  "url": "group.html#definition-12",
+  "type": "Definition",
+  "number": "3.1.13",
+  "title": "",
+  "body": " Let . If is a bijection such that we say that is a isomorphism and are isomorphic.  "
+},
+{
+  "id": "problem-78",
+  "level": "2",
+  "url": "group.html#problem-78",
+  "type": "Problem",
+  "number": "3.1.14",
+  "title": "",
+  "body": " Show that and the group under matrix multiplication are isomorphic. Can you think of a natural reason why they should be?  "
+},
+{
+  "id": "problem-79",
+  "level": "2",
+  "url": "group.html#problem-79",
+  "type": "Problem",
+  "number": "3.1.15",
+  "title": "",
+  "body": " Find all subgroups of which are isomorphic to .  "
+},
+{
+  "id": "problem-80",
+  "level": "2",
+  "url": "group.html#problem-80",
+  "type": "Problem",
+  "number": "3.1.16",
+  "title": "",
+  "body": " Determine if is isomorphic to .  "
+},
+{
+  "id": "problem-81",
+  "level": "2",
+  "url": "group.html#problem-81",
+  "type": "Problem",
+  "number": "3.1.17",
+  "title": "",
+  "body": " Find 3 groups of size 4 which are not isomorphic to each other or explain why this is not possible.  "
+},
+{
+  "id": "problem-82",
+  "level": "2",
+  "url": "group.html#problem-82",
+  "type": "Problem",
+  "number": "3.1.18",
+  "title": "",
+  "body": "  Consider the group . Recall SET. Let the first entry correspond to number, the second color, the third shading and the fourth shape. Assign a value to each characteristic.  Let a GSET denote a collection of three cards so that their sum is .   Compare GSETS to SETS. What collections of cards are SETS but not GSETS? What are GSETS but not SETS?  Pick a card which corresponds to pick two other cards which are not inverses of each other. What is the subgroup generated by these two cards and what are their corresponding cards?  Remember when we conjectured that any 3 cards which don't form a SET would generate a plane? Now prove it.  "
 },
 {
   "id": "colophon-2",
