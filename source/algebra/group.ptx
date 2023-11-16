@@ -167,6 +167,13 @@
         </p>
       </statement>
     </task>
+    <task>
+      <statement>
+        <p>
+          Find two elements of this group, <m>a,b</m> so that each element of this group is some <q>product</q> of <m>a, b</m> powers.
+        </p>
+      </statement>
+    </task>
   </problem>
 
   <problem>
