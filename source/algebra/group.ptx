@@ -401,14 +401,14 @@
   </problem>
 
   <problem>
-    <statement>
+    <introduction>
       <p>
         Consider the group <m>\mathbb{Z}_3\times\mathbb{Z}_3\times\mathbb{Z}_3\times\mathbb{Z}_3</m>.  Recall SET.  Let the first entry correspond to number, the second color, the third shading and the fourth shape.  Assign a value to each characteristic.
       </p>
       <p>
         Let a GSET denote a collection of three cards so that their sum is <m>(0,0,0,0)</m>.
       </p>
-    </statement>
+    </introduction>
     <task>
       <p>
         Compare GSETS to SETS.  What collections of cards are SETS but not GSETS?  What are GSETS but not SETS?
