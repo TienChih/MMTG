@@ -335,14 +335,10 @@
         Find <m>k(x)</m> so that =<m>k(R(x)) = e(x)</m> and <m>R(k(x))=e(x)</m>.
       </p>
     </task>
+    
     <task>
       <p>
-        Let <m>h(x) = R(T(R(T(x))))</m>. simplify <m>h(x)</m>.
-      </p>
-    </task>
-    <task>
-      <p>
-        Let <m>h(x) = R(T(R(T(x))))</m>. simplify <m>h(x)</m>.
+        Let <m>h(x) = R(T(R(T(R(x)))))</m>. simplify <m>h(x)</m>.
       </p>
     </task>
     <task>
